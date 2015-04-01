@@ -1,0 +1,49 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.eklavya</groupId>
+  <artifactId>playtags_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>playtags</description>
+  <version>1.0</version>
+  <name>playtags</name>
+  <organization>
+    <name>com.github.eklavya</name>
+  </organization>
+  <url>https://github.com/eklavya/playtags</url>
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:eklavya/playtags.git</url>
+    <connection>scm:git:git@github.com:eklavya/playtags.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>saurabh.rawat90@gmail.com</id>
+      <name>Saurabh Rawat</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.4</version>
+    </dependency>
+    <dependency>
+      <groupId>com.scalatags</groupId>
+      <artifactId>scalatags_2.11</artifactId>
+      <version>0.4.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.play</groupId>
+      <artifactId>play_2.11</artifactId>
+      <version>2.3.7</version>
+    </dependency>
+  </dependencies>
+</project>
+

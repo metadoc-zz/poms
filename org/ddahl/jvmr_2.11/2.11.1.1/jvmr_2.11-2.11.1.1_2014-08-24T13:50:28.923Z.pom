@@ -1,0 +1,56 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.ddahl</groupId>
+  <artifactId>jvmr_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>jvmr</description>
+  <version>2.11.1.1</version>
+  <licenses>
+    <license>
+      <name>GPL-2.0</name>
+      <url>http://opensource.org/licenses/GPL-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>jvmr</name>
+  <organization>
+    <name>org.ddahl</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-compiler</artifactId>
+      <version>2.11.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-reflect</artifactId>
+      <version>2.11.1</version>
+    </dependency>
+    <dependency>
+      <groupId>jline</groupId>
+      <artifactId>jline</artifactId>
+      <version>2.11</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>jline</artifactId>
+      <version>2.11.0-M3</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>BintrayResolvecrealyticsmaven</id>
+      <name>Bintray-Resolve-crealytics-maven</name>
+      <url>http://dl.bintray.com/content/crealytics/maven/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

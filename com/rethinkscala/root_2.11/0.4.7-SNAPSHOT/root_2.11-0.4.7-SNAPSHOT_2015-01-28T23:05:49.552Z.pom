@@ -1,0 +1,29 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rethinkscala</groupId>
+  <artifactId>root_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>root</description>
+  <version>0.4.7-SNAPSHOT</version>
+  <name>root</name>
+  <organization>
+    <name>com.rethinkscala</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.1</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>sonatypesnapshots</id>
+      <name>sonatype-snapshots</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

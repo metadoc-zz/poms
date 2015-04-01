@@ -1,0 +1,103 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.scalatra.scalate.tooling</groupId>
+    <artifactId>archetypes_2.11</artifactId>
+    <version>1.7.1</version>
+  </parent>
+  <artifactId>scalate-archetype-guice_2.11</artifactId>
+  <packaging>maven-archetype</packaging>
+  <name>${project.artifactId}</name>
+  <description>
+    An archetype which creates an empty Scalate Guice web application
+  </description>
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>${archetype-plugin-version}</version>
+      </extension>
+    </extensions>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>true</filtering>
+        <excludes>
+          <exclude>**/*.ico</exclude>
+          <exclude>**/*.png</exclude>
+          <exclude>**/*.jpg</exclude>
+        </excludes>
+      </resource>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>false</filtering>
+        <includes>
+          <include>**/*.ico</include>
+          <include>**/*.png</include>
+          <include>**/*.jpg</include>
+        </includes>
+      </resource>
+      <resource>
+        <directory>${basedir}/target/resources</directory>
+        <filtering>false</filtering>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-archetype-plugin</artifactId>
+        <version>2.0</version>
+        <extensions>true</extensions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>generate-resources</phase>
+            <configuration>
+              <tasks>
+                <copy 
+                verbose="true" overwrite="false" todir="${basedir}/target/resources/archetype-resources/src/main/webapp">
+                  <fileset dir="${basedir}/../../scalate-war/src/main/webapp">
+                    <exclude name="WEB-INF/web.xml"/>
+                    <exclude name="index.*"/>
+                    <exclude name="WEB-INF/_scalate"/>
+                    <exclude name="WEB-INF/_scalate/**"/>
+                  </fileset>
+</copy>
+              </tasks>
+            </configuration>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-clean-plugin</artifactId>
+        <version>2.4.1</version>
+        <configuration>
+          <filesets>
+            <fileset>
+              <directory>src/main/resources/archetype-resources/src/main/webapp</directory>
+              <includes>
+                <include>**/*</include>
+              </includes>
+              <excludes>
+                <exclude>.gitignore</exclude>
+                <exclude>WEB-INF/.gitignore</exclude>
+                <exclude>WEB-INF/web.xml</exclude>
+                <exclude>index.scaml</exclude>
+                <exclude>WEB-INF/resources/**/*</exclude>
+              </excludes>
+              <followSymlinks>false</followSymlinks>
+            </fileset>
+          </filesets>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
+

@@ -1,0 +1,80 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>edu.depauw</groupId>
+  <artifactId>sjs-scales_sjs0.5_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>
+    Scala.js library for functional reactive graphics and music
+  </description>
+  <version>0.1</version>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>sjs-scales</name>
+  <organization>
+    <name>edu.depauw</name>
+  </organization>
+  <scm>
+    <url>git@github.com:DePauwREU2013/sjs-scales.git</url>
+    <connection>scm:git:git@github.com:DePauwREU2013/sjs-scales.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>bhoward</id>
+      <name>Brian Howard</name>
+      <url>https://github.com/bhoward</url>
+    </developer>
+    <developer>
+      <id>bekroogle</id>
+      <name>Benjamin Kruger</name>
+      <url>https://github.com/bekroogle</url>
+    </developer>
+    <developer>
+      <id>namchid</id>
+      <name>Namchi Do</name>
+      <url>https://github.com/namchid</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang.modules.scalajs</groupId>
+      <artifactId>scalajs-library_2.11</artifactId>
+      <version>0.5.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang.modules.scalajs</groupId>
+      <artifactId>scalajs-dom_sjs0.5_2.11</artifactId>
+      <version>0.6</version>
+    </dependency>
+    <dependency>
+      <groupId>com.scalarx</groupId>
+      <artifactId>scalarx_sjs0.5_2.11</artifactId>
+      <version>0.2.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang.modules.scalajs</groupId>
+      <artifactId>scalajs-jasmine-test-framework_2.11</artifactId>
+      <version>0.5.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>BintrayResolvebhowardmaven</id>
+      <name>Bintray-Resolve-bhoward-maven</name>
+      <url>http://dl.bintray.com/content/bhoward/maven/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

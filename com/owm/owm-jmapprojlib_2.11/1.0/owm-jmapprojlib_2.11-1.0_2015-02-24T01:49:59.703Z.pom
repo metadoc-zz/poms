@@ -1,0 +1,45 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.owm</groupId>
+  <artifactId>owm-jmapprojlib_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>
+    Jmapprojlib fork with Datum conversion support and a &quot;latlong&quot; projection similar to PROJ.4.
+  </description>
+  <url>https://github.com/pomadchin/owm-jmapprojlib</url>
+  <version>1.0</version>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>owm-jmapprojlib</name>
+  <organization>
+    <name>com.owm</name>
+    <url>https://github.com/pomadchin/owm-jmapprojlib</url>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.5</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>BintrayResolveowmowmjavarepository</id>
+      <name>Bintray-Resolve-owm-owm-java-repository</name>
+      <url>http://dl.bintray.com/content/owm/owm-java-repository/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

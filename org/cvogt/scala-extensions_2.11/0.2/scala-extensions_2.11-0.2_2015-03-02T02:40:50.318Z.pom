@@ -1,0 +1,43 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.cvogt</groupId>
+  <artifactId>scala-extensions_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>Composable Records and type-indexed Maps for Scala</description>
+  <url>http://github.com/cvogt/scala-extensions</url>
+  <version>0.2</version>
+  <licenses>
+    <license>
+      <name>Creative Commons Attribution-ShareAlike 4.0 International</name>
+      <url>https://creativecommons.org/licenses/by-sa/4.0/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>scala-extensions</name>
+  <inceptionYear>2015</inceptionYear>
+  <organization>
+    <name>Jan Christopher Vogt</name>
+    <url>http://github.com/cvogt/scala-extensions</url>
+  </organization>
+  <developers>
+    <developer>
+      <id>cvogt</id>
+      <name>Jan Christopher Vogt</name>
+      <timezone>-5</timezone>
+      <url>https://github.com/cvogt/</url>
+    </developer>
+  </developers>
+  <scm>
+    <url>git@github.com:cvogt/scala-extensions.git</url>
+    <connection>scm:git:git@github.com:cvogt/scala-extensions.git</connection>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.5</version>
+    </dependency>
+  </dependencies>
+</project>
+

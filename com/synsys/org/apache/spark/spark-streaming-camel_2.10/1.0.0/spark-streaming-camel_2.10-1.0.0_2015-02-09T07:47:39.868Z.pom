@@ -1,0 +1,58 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.synsys.org.apache.spark</groupId>
+    <artifactId>spark</artifactId>
+    <version>1.0.0</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+  <artifactId>spark-streaming-camel_2.10</artifactId>
+  <packaging>jar</packaging>
+  <name>Spark : Streaming : Camel</name>
+  <description>Apache Camel support for Apache Spark Streaming</description>
+  <url>https://github.com/synsys/spark</url>
+  <properties>
+    <sbt.project.name>streaming-camel</sbt.project.name>
+    <camel.version>2.14.1</camel.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-streaming_${scala.binary.version}</artifactId>
+      <version>${spark.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-core</artifactId>
+      <version>${camel.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-scala</artifactId>
+      <version>${camel.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-netty4</artifactId>
+      <version>${camel.version}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.scalatest</groupId>
+        <artifactId>scalatest-maven-plugin</artifactId>
+        <configuration>
+          <jUnitClasses>
+            com.synsys.org.apache.spark.streaming.camel.JavaCamelStreamSuite
+          </jUnitClasses>
+          <suites>com.synsys.org.apache.spark.streaming.camel.CamelStreamSuite</suites>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
+

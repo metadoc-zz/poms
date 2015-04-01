@@ -1,0 +1,60 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.timepit</groupId>
+  <artifactId>equites-gfx_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>equites-gfx</description>
+  <url>http://equites.timepit.eu</url>
+  <version>0.0.0</version>
+  <licenses>
+    <license>
+      <name>GPL-3.0</name>
+      <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>equites-gfx</name>
+  <inceptionYear>2011</inceptionYear>
+  <organization>
+    <name>eu.timepit</name>
+    <url>http://equites.timepit.eu</url>
+  </organization>
+  <scm>
+    <url>https://github.com/fthomas/equites</url>
+    <connection>git@github.com:fthomas/equites.git</connection>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.1</version>
+    </dependency>
+    <dependency>
+      <groupId>eu.timepit</groupId>
+      <artifactId>equites-core_2.11</artifactId>
+      <version>0.0.0</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>ScalazBintrayRepo</id>
+      <name>Scalaz Bintray Repo</name>
+      <url>http://dl.bintray.com/scalaz/releases/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>BintrayJCenter</id>
+      <name>BintrayJCenter</name>
+      <url>http://jcenter.bintray.com/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>BintrayResolvefthomasmaven</id>
+      <name>Bintray-Resolve-fthomas-maven</name>
+      <url>http://dl.bintray.com/content/fthomas/maven/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

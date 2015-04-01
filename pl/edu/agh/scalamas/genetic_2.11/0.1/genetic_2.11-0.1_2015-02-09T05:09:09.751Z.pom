@@ -1,0 +1,61 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pl.edu.agh.scalamas</groupId>
+  <artifactId>genetic_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>genetic</description>
+  <url>http://paraphrase.agh.edu.pl/scala-mas/</url>
+  <version>0.1</version>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>genetic</name>
+  <organization>
+    <name>pl.edu.agh.scalamas</name>
+    <url>http://paraphrase.agh.edu.pl/scala-mas/</url>
+  </organization>
+  <scm>
+    <url>git@github.com:ParaPhraseAGH/scala-mas.git</url>
+    <connection>scm:git:git@github.com:ParaPhraseAGH/scala-mas.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>Eleaar</id>
+      <name>Daniel Krzywicki</name>
+      <url>https://github.com/eleaar</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.4</version>
+    </dependency>
+    <dependency>
+      <groupId>pl.edu.agh.scalamas</groupId>
+      <artifactId>core_2.11</artifactId>
+      <version>0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe</groupId>
+      <artifactId>config</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>net.ceedubs</groupId>
+      <artifactId>ficus_2.11</artifactId>
+      <version>1.1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-math3</artifactId>
+      <version>3.4.1</version>
+    </dependency>
+  </dependencies>
+</project>
+

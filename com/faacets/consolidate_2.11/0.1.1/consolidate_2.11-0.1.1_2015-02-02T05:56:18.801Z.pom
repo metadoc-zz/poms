@@ -1,0 +1,46 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.faacets</groupId>
+  <artifactId>consolidate_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>Consolidate</description>
+  <url>https://github.com/denisrosset/consolidate</url>
+  <version>0.1.1</version>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>Consolidate</name>
+  <organization>
+    <name>com.faacets</name>
+    <url>https://github.com/denisrosset/consolidate</url>
+  </organization>
+  <scm>
+    <url>git@github.com:denisrosset/consolidate.git</url>
+    <connection>scm:git:git@github.com:denisrosset/consolidate.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>denisrosset</id>
+      <name>Denis Rosset</name>
+      <url>http://denisrosset.com</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.typelevel</groupId>
+      <artifactId>machinist_2.11</artifactId>
+      <version>0.3.0</version>
+    </dependency>
+  </dependencies>
+</project>
+

@@ -1,0 +1,64 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.markatta</groupId>
+  <artifactId>scalenium_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>scalenium</description>
+  <version>1.0.1</version>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>scalenium</name>
+  <organization>
+    <name>com.markatta</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>2.44.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2_2.11</artifactId>
+      <version>2.4.15</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>releases</id>
+      <name>releases</name>
+      <url>http://oss.sonatype.org/content/repositories/releases/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>ScalazBintrayRepo</id>
+      <name>Scalaz Bintray Repo</name>
+      <url>http://dl.bintray.com/scalaz/releases/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>BintrayJCenter</id>
+      <name>BintrayJCenter</name>
+      <url>http://jcenter.bintray.com/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>BintrayResolvemarkattamarkattareleases</id>
+      <name>Bintray-Resolve-markatta-markatta-releases</name>
+      <url>http://dl.bintray.com/content/markatta/markatta-releases/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

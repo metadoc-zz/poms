@@ -1,0 +1,51 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.kryshchuk</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.4</version>
+  </parent>
+  <groupId>com.kryshchuk.mirror.com.feth</groupId>
+  <artifactId>play-easymail_2.11</artifactId>
+  <version>0.6.4</version>
+  <name>Mirror for Play! EasyMail</name>
+  <description>Repackaged module</description>
+  <url>https://mirrors.kryshchuk.com/play-easymail/</url>
+  <scm>
+    <connection>scm:git:git@github.com:ykryshchuk/play-easymail.git</connection>
+    <developerConnection>
+      scm:git:git@github.com:ykryshchuk/play-easymail.git
+    </developerConnection>
+    <url>git@github.com:ykryshchuk/play-easymail.git</url>
+    <tag>play-easymail_2.11-0.6.4</tag>
+  </scm>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>unpack-original</id>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+            <phase>prepare-package</phase>
+            <configuration>
+              <outputDirectory>${project.build.outputDirectory}</outputDirectory>
+              <artifactItems>
+                <artifactItem>
+                  <groupId>com.feth</groupId>
+                  <artifactId>play-easymail_2.11</artifactId>
+                  <version>0.6.4-SNAPSHOT</version>
+                </artifactItem>
+              </artifactItems>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <properties> </properties>
+</project>
+

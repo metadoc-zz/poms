@@ -1,0 +1,46 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.elliottsj</groupId>
+  <artifactId>protobus-scala_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>protobus-scala</description>
+  <version>0.0.20</version>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>protobus-scala</name>
+  <organization>
+    <name>com.elliottsj</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.4</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-java</artifactId>
+      <version>2.6.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.trueaccord.scalapb</groupId>
+      <artifactId>scalapb-runtime_2.11</artifactId>
+      <version>0.4.1</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>BintrayResolveelliottsjmaven</id>
+      <name>Bintray-Resolve-elliottsj-maven</name>
+      <url>http://dl.bintray.com/content/elliottsj/maven/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

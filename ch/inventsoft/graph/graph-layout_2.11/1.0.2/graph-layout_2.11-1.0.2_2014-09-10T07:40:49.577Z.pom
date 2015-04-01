@@ -1,0 +1,58 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ch.inventsoft.graph</groupId>
+  <artifactId>graph-layout_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>graph-layout</description>
+  <url>https://github.com/msiegenthaler/graph-layout</url>
+  <version>1.0.2</version>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>graph-layout</name>
+  <organization>
+    <name>ch.inventsoft.graph</name>
+    <url>https://github.com/msiegenthaler/graph-layout</url>
+  </organization>
+  <scm>
+    <url>git@github.com:msiegenthaler/graph-layout</url>
+    <connection>scm:git:git@github.com:msiegenthaler/graph-layout</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>msiegenthaler</id>
+      <name>Mario Siegenthaler</name>
+      <url>https://github.com/msiegenthaler</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.assembla.scala-incubator</groupId>
+      <artifactId>graph-core_2.11</artifactId>
+      <version>1.9.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2_2.11</artifactId>
+      <version>2.4.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.storm-enroute</groupId>
+      <artifactId>scalameter_2.11</artifactId>
+      <version>0.6</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

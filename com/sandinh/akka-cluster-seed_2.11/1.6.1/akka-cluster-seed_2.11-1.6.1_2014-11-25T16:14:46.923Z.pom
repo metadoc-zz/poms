@@ -1,0 +1,76 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sandinh</groupId>
+  <artifactId>akka-cluster-seed_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>akka-cluster-seed</description>
+  <version>1.6.1</version>
+  <name>akka-cluster-seed</name>
+  <organization>
+    <name>com.sandinh</name>
+  </organization>
+  <url>https://github.com/giabao/akka-cluster-seed</url>
+  <licenses>
+    <license>
+      <name>Apache 2</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:giabao/akka-cluster-seed.git</url>
+    <connection>scm:git:git@github.com:giabao/akka-cluster-seed.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>giabao</id>
+      <name>Gia Bảo</name>
+      <email>giabao@sandinh.net</email>
+      <organization>Sân Đình</organization>
+      <organizationUrl>http://sandinh.com</organizationUrl>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.4</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-slf4j_2.11</artifactId>
+      <version>2.3.7</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-contrib_2.11</artifactId>
+      <version>2.3.7</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.fusesource.leveldbjni</groupId>
+          <artifactId>leveldbjni-win32</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.fusesource.leveldbjni</groupId>
+          <artifactId>leveldbjni-win64</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.fusesource.leveldbjni</groupId>
+          <artifactId>leveldbjni-osx</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.fusesource.leveldbjni</groupId>
+          <artifactId>leveldbjni-linux32</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.1.2</version>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+</project>
+

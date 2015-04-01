@@ -1,0 +1,71 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>uk.co.turingatemyhamster</groupId>
+  <artifactId>gv-clientserver_shared_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>gv-clientServer_shared</description>
+  <version>0.3.2</version>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>gv-clientServer_shared</name>
+  <organization>
+    <name>uk.co.turingatemyhamster</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.4</version>
+    </dependency>
+    <dependency>
+      <groupId>uk.co.turingatemyhamster</groupId>
+      <artifactId>gv-core_shared_2.11</artifactId>
+      <version>0.3.2</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>BintrayResolvedrdozermaven</id>
+      <name>Bintray-Resolve-drdozer-maven</name>
+      <url>http://dl.bintray.com/content/drdozer/maven/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>sonatypesnapshots</id>
+      <name>sonatype-snapshots</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>sonatypereleases</id>
+      <name>sonatype-releases</name>
+      <url>https://oss.sonatype.org/content/repositories/releases/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>sprayrepo</id>
+      <name>spray repo</name>
+      <url>http://repo.spray.io/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>ScalazBintrayRepo</id>
+      <name>Scalaz Bintray Repo</name>
+      <url>http://dl.bintray.com/scalaz/releases/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>drdozerBintrayRepo</id>
+      <name>drdozer Bintray Repo</name>
+      <url>http://dl.bintray.com/content/drdozer/maven/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

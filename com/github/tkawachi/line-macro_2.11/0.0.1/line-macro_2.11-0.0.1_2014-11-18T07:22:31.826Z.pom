@@ -1,0 +1,51 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.tkawachi</groupId>
+  <artifactId>line-macro_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>line-macro</description>
+  <version>0.0.1</version>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>line-macro</name>
+  <organization>
+    <name>com.github.tkawachi</name>
+  </organization>
+  <scm>
+    <url>https://github.com/tkawachi/line-macro/</url>
+    <connection>scm:git:github.com:tkawachi/line-macro.git</connection>
+  </scm>
+  <url>https://github.com/tkawachi/line-macro/</url>
+  <developers>
+    <developer>
+      <id>kawachi</id>
+      <name>Takashi Kawachi</name>
+      <url>https://github.com/tkawachi</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-reflect</artifactId>
+      <version>2.11.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalacheck</groupId>
+      <artifactId>scalacheck_2.11</artifactId>
+      <version>1.11.6</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

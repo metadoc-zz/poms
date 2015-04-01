@@ -1,0 +1,76 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mandubian</groupId>
+  <artifactId>scaledn-macros_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>scaledn-macros</description>
+  <version>1.0.0-f77f98cc305ce8a304d8941f800505c6b3d41d74</version>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>http://www.apache.org/licenses/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>scaledn-macros</name>
+  <organization>
+    <name>com.mandubian</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.4</version>
+    </dependency>
+    <dependency>
+      <groupId>com.mandubian</groupId>
+      <artifactId>scaledn-parser_2.11</artifactId>
+      <version>1.0.0-f77f98cc305ce8a304d8941f800505c6b3d41d74</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.11</artifactId>
+      <version>2.2.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-reflect</artifactId>
+      <version>2.11.4</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>typesafereleases</id>
+      <name>typesafe releases</name>
+      <url>https://repo.typesafe.com/typesafe/releases/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>typesafesnapshots</id>
+      <name>typesafe snapshots</name>
+      <url>https://repo.typesafe.com/typesafe/snapshots/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>JTOsnapshots</id>
+      <name>JTO snapshots</name>
+      <url>https://raw.github.com/jto/mvn-repo/master/snapshots/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>BintrayJCenter</id>
+      <name>BintrayJCenter</name>
+      <url>http://jcenter.bintray.com/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>BintrayResolvemandubianmaven</id>
+      <name>Bintray-Resolve-mandubian-maven</name>
+      <url>http://dl.bintray.com/content/mandubian/maven/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

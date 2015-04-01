@@ -1,0 +1,43 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.qirx</groupId>
+  <artifactId>little-spec-extra-documentation_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>little-spec-extra-documentation</description>
+  <version>0.4</version>
+  <name>little-spec-extra-documentation</name>
+  <organization>
+    <name>org.qirx</name>
+  </organization>
+  <url>https://github.com/eecolor/little-spec</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/EECOLOR/little-spec/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:EECOLOR/little-spec.git</url>
+    <connection>scm:git:git@github.com:EECOLOR/little-spec.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>EECOLOR</id>
+      <name>Erik Westra</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.qirx</groupId>
+      <artifactId>little-spec_2.11</artifactId>
+      <version>0.4</version>
+    </dependency>
+  </dependencies>
+</project>
+

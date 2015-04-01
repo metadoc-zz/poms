@@ -1,0 +1,56 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jscala</groupId>
+  <artifactId>jscala-annots_2.11.0-M7</artifactId>
+  <packaging>jar</packaging>
+  <description>jscala-annots</description>
+  <version>0.3</version>
+  <name>jscala-annots</name>
+  <organization>
+    <name>org.jscala</name>
+  </organization>
+  <url>http://jscala.org</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:nau/jscala.git</url>
+    <connection>scm:git:git@github.com:nau/jscala.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>nau</id>
+      <name>Alexander Nemish</name>
+      <url>http://github.com/nau</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.0-M7</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jscala</groupId>
+      <artifactId>jscala-macros_2.11.0-M7</artifactId>
+      <version>0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-reflect</artifactId>
+      <version>2.11.0-M7</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>fr.apyx</groupId>
+      <artifactId>ts2scala-macros_2.11.0-M7</artifactId>
+      <version>0.2.1</version>
+    </dependency>
+  </dependencies>
+</project>
+

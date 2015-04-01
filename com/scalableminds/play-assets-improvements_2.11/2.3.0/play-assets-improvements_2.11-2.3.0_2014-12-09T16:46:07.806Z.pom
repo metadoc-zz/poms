@@ -1,0 +1,62 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.scalableminds</groupId>
+  <artifactId>play-assets-improvements_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>
+    Play framework 2.x module to provide an assets pipeline for compressing and fingerprinting assets
+  </description>
+  <url>https://github.com/tmbo/play-asset-improvements</url>
+  <version>2.3.0</version>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>
+        https://raw.githubusercontent.com/myyk/play-assets-improvements/353307ccad1d59a582789940ea1ee73ca3cae5b6/LICENSE
+      </url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>play-assets-improvements</name>
+  <inceptionYear>2014</inceptionYear>
+  <organization>
+    <name>scalable minds UG (haftungsbeschränkt) &amp; Co. KG</name>
+    <url>http://scalableminds.com</url>
+  </organization>
+  <scm>
+    <url>https://github.com/tmbo/play-asset-improvements</url>
+    <connection>https://github.com/tmbo/play-asset-improvements.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>myyk</id>
+      <name>Myyk Seok</name>
+      <url>http://github.com/myyk</url>
+    </developer>
+    <developer>
+      <id>tmbo</id>
+      <name>Tom Bocklisch</name>
+      <email>tom.bocklisch@scalableminds.com</email>
+      <url>http://github.com/tmbo</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.play</groupId>
+      <artifactId>play_2.11</artifactId>
+      <version>2.3.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>15.0</version>
+    </dependency>
+  </dependencies>
+</project>
+

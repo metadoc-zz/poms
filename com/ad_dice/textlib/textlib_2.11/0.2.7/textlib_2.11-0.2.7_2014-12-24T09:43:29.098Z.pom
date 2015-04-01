@@ -1,0 +1,41 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ad_dice.textlib</groupId>
+  <artifactId>textlib_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>textlib</description>
+  <version>0.2.7</version>
+  <name>textlib</name>
+  <organization>
+    <name>com.ad_dice.textlib</name>
+  </organization>
+  <url>https://github.com/ad-dice/textlib</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:ad-dice/textlib.git</url>
+    <connection>scm:git:git@github.com:ad-dice/textlib.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>ad-dice</id>
+      <name>Ito, Bya, Yoshida</name>
+      <url>http://ad-dice.com/</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.2</version>
+    </dependency>
+  </dependencies>
+</project>
+

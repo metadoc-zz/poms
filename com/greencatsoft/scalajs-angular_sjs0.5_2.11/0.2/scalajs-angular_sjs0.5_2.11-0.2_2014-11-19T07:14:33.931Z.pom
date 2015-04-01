@@ -1,0 +1,68 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.greencatsoft</groupId>
+  <artifactId>scalajs-angular_sjs0.5_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>AngularJS bindings for Scala.js.</description>
+  <url>http://github.com/greencatsoft/scalajs-angular</url>
+  <version>0.2</version>
+  <name>scalajs-angular</name>
+  <organization>
+    <name>com.greencatsoft</name>
+    <url>http://github.com/greencatsoft/scalajs-angular</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:greencatsoft/scalajs-angular.git</url>
+    <connection>
+      scm:git:git@github.com:greencatsoft/scalajs-angular.git
+    </connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>mysticfall</id>
+      <name>Xavier Cho</name>
+      <url>http://github.com/mysticfall</url>
+    </developer>
+    <developer>
+      <id>jokade</id>
+      <name>Jokade</name>
+      <url>https://github.com/jokade</url>
+    </developer>
+    <developer>
+      <id>mmx900</id>
+      <name>Setzer Kim</name>
+      <url>https://github.com/mmx900</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang.modules.scalajs</groupId>
+      <artifactId>scalajs-library_2.11</artifactId>
+      <version>0.5.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang.modules.scalajs</groupId>
+      <artifactId>scalajs-dom_sjs0.5_2.11</artifactId>
+      <version>0.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-reflect</artifactId>
+      <version>2.11.2</version>
+    </dependency>
+  </dependencies>
+</project>
+

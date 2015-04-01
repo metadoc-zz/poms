@@ -1,0 +1,58 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>oscar</groupId>
+  <artifactId>oscar-util_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>oscar-util</description>
+  <version>1.1.0.1</version>
+  <licenses>
+    <license>
+      <name>LGPL-3.0</name>
+      <url>http://www.gnu.org/licenses/lgpl.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>oscar-util</name>
+  <organization>
+    <name>oscar</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang.modules</groupId>
+      <artifactId>scala-xml_2.11</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang.modules</groupId>
+      <artifactId>scala-parser-combinators_2.11</artifactId>
+      <version>1.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang.modules</groupId>
+      <artifactId>scala-swing_2.11</artifactId>
+      <version>1.0.1</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>Typesaferepositorysnapshots</id>
+      <name>Typesafe repository snapshots</name>
+      <url>http://repo.typesafe.com/typesafe/snapshots/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>Typesaferepositoryreleases</id>
+      <name>Typesafe repository releases</name>
+      <url>http://repo.typesafe.com/typesafe/releases/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>BintrayResolveetatymaven</id>
+      <name>Bintray-Resolve-etaty-maven</name>
+      <url>http://dl.bintray.com/content/etaty/maven/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

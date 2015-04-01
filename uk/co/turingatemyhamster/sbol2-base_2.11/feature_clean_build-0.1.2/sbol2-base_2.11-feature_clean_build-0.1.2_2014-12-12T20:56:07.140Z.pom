@@ -1,0 +1,52 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>uk.co.turingatemyhamster</groupId>
+  <artifactId>sbol2-base_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>sbol2-base</description>
+  <version>feature_clean_build-0.1.2</version>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>sbol2-base</name>
+  <organization>
+    <name>uk.co.turingatemyhamster</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.4</version>
+    </dependency>
+    <dependency>
+      <groupId>uk.co.turingatemyhamster</groupId>
+      <artifactId>sbol2-base_shared_2.11</artifactId>
+      <version>feature_clean_build-0.1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>uk.co.turingatemyhamster</groupId>
+      <artifactId>datatree_2.11</artifactId>
+      <version>0.1.2</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>BintrayResolvedrdozermaven</id>
+      <name>Bintray-Resolve-drdozer-maven</name>
+      <url>http://dl.bintray.com/content/drdozer/maven/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>drdozerBintrayRepo</id>
+      <name>drdozer Bintray Repo</name>
+      <url>http://dl.bintray.com/content/drdozer/maven/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

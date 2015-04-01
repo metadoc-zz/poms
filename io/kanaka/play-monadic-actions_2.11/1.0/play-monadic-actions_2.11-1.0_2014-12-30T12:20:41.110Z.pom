@@ -1,0 +1,74 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.kanaka</groupId>
+  <artifactId>play-monadic-actions_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>
+    Mini DSL to allow the writing of Play! actions using for-comprehensions
+  </description>
+  <url>https://github.com/Kanaka-io/play-monadic-actions</url>
+  <version>1.0</version>
+  <licenses>
+    <license>
+      <name>Apache2</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>play-monadic-actions</name>
+  <organization>
+    <name>io.kanaka</name>
+    <url>https://github.com/Kanaka-io/play-monadic-actions</url>
+  </organization>
+  <scm>
+    <url>git@github.com:Kanaka-io/play-monadic-actions.git</url>
+    <connection>
+      scm:git:git@github.com:Kanaka-io/play-monadic-actions.git
+    </connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>vkasas</id>
+      <name>Valentin Kasas</name>
+      <url>https://twitter.com/ValentinKasas</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.play</groupId>
+      <artifactId>twirl-api_2.11</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.play</groupId>
+      <artifactId>play_2.11</artifactId>
+      <version>2.3.7</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.play</groupId>
+      <artifactId>play-test_2.11</artifactId>
+      <version>2.3.7</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalaz</groupId>
+      <artifactId>scalaz-core_2.11</artifactId>
+      <version>7.0.6</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>TypesafeReleasesRepository</id>
+      <name>Typesafe Releases Repository</name>
+      <url>https://repo.typesafe.com/typesafe/releases/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

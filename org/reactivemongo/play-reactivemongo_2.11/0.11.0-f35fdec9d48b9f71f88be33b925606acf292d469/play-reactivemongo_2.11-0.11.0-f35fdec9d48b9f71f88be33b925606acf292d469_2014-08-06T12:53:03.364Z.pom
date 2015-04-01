@@ -1,0 +1,50 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.reactivemongo</groupId>
+  <artifactId>play-reactivemongo_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>Play-Reactivemongo</description>
+  <version>0.11.0-f35fdec9d48b9f71f88be33b925606acf292d469</version>
+  <name>Play-Reactivemongo</name>
+  <organization>
+    <name>org.reactivemongo</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.reactivemongo</groupId>
+      <artifactId>reactivemongo_2.11</artifactId>
+      <version>0.11.0-d4fbbc39e5c35ce5bdd8c1920250339ca605f2aa</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.play</groupId>
+      <artifactId>play_2.11</artifactId>
+      <version>2.3.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.play</groupId>
+      <artifactId>play-test_2.11</artifactId>
+      <version>2.3.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2_2.11</artifactId>
+      <version>2.3.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.8</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-to-slf4j</artifactId>
+      <version>2.0-beta9</version>
+    </dependency>
+  </dependencies>
+</project>
+

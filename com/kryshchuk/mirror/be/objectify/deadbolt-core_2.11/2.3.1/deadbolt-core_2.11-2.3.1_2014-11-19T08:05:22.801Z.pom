@@ -1,0 +1,51 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.kryshchuk</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.4</version>
+  </parent>
+  <groupId>com.kryshchuk.mirror.be.objectify</groupId>
+  <artifactId>deadbolt-core_2.11</artifactId>
+  <version>2.3.1</version>
+  <name>Mirror for Deadbolt 2 Core</name>
+  <description>Repackaged module</description>
+  <url>https://mirrors.kryshchuk.com/deadbolt-core/</url>
+  <scm>
+    <connection>scm:git:git@github.com:ykryshchuk/deadbolt-core.git</connection>
+    <developerConnection>
+      scm:git:git@github.com:ykryshchuk/deadbolt-core.git
+    </developerConnection>
+    <url>git@github.com:ykryshchuk/deadbolt-core.git</url>
+    <tag>deadbolt-core_2.11-2.3.1</tag>
+  </scm>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>unpack-original</id>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+            <phase>prepare-package</phase>
+            <configuration>
+              <outputDirectory>${project.build.outputDirectory}</outputDirectory>
+              <artifactItems>
+                <artifactItem>
+                  <groupId>be.objectify</groupId>
+                  <artifactId>deadbolt-core_2.11</artifactId>
+                  <version>2.3.1</version>
+                </artifactItem>
+              </artifactItems>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <properties> </properties>
+</project>
+

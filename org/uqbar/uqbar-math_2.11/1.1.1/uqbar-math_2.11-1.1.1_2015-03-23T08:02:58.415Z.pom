@@ -1,0 +1,49 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.uqbar</groupId>
+  <artifactId>uqbar-math_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>
+    A math extension for Scala with better abstractions to support complex algebraic expressions
+  </description>
+  <url>http://www.uqbar.org</url>
+  <version>1.1.1</version>
+  <licenses>
+    <license>
+      <name>LGPLv3</name>
+      <url>https://www.gnu.org/licenses/lgpl.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>uqbar-math</name>
+  <organization>
+    <name>Uqbar Foundation</name>
+    <url>http://www.uqbar-project.org</url>
+  </organization>
+  <scm>
+    <url>https://github.com/uqbar-project/uqbar-math</url>
+    <connection>scm:git@github.com:uqbar-project/uqbar-math.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>uqbar</id>
+      <name>Uqbar</name>
+      <url>http://www.uqbar.org</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.11</artifactId>
+      <version>[2.2,)</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

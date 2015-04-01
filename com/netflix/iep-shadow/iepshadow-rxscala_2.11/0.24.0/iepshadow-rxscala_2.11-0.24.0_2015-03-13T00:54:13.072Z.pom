@@ -1,0 +1,57 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.netflix.iep-shadow</groupId>
+  <artifactId>iepshadow-rxscala_2.11</artifactId>
+  <version>0.24.0</version>
+  <name>iepshadow-rxscala_2.11</name>
+  <description>iepshadow-rxscala_2.11 developed by Netflix</description>
+  <url>https://github.com/Netflix/iep-shadow</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>netflixgithub</id>
+      <name>Netflix Open Source Development</name>
+      <email>talent@netflix.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/Netflix/iep-shadow/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git:git@github.com:Netflix/iep-shadow.git</connection>
+    <developerConnection>
+      scm:git:git@github.com:Netflix/iep-shadow.git
+    </developerConnection>
+    <url>scm:git:git@github.com:Netflix/iep-shadow.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxscala_2.11</artifactId>
+      <version>0.24.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxscala_2.11</artifactId>
+      <version>0.24.0</version>
+      <classifier>sources</classifier>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.netflix.iep-shadow</groupId>
+      <artifactId>iepshadow-rxjava</artifactId>
+      <version>1.0.8</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
+

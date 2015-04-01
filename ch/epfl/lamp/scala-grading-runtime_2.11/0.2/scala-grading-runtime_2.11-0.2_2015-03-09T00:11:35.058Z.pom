@@ -1,0 +1,54 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ch.epfl.lamp</groupId>
+  <artifactId>scala-grading-runtime_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>Runtime library for scala-grading.</description>
+  <url>https://github.com/sbt-coursera/scala-grading</url>
+  <version>0.2</version>
+  <licenses>
+    <license>
+      <name>BSD 3-Clause</name>
+      <url>http://opensource.org/licenses/BSD-3-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>scala-grading-runtime</name>
+  <organization>
+    <name>ch.epfl.lamp</name>
+    <url>http://lamp.epfl.ch</url>
+  </organization>
+  <scm>
+    <url>https://github.com/sbt-coursera/scala-grading</url>
+    <connection>scm:git:git@github.com:sbt-coursera/scala-grading.git</connection>
+    <developerConnection>
+      scm:git:git@github.com:sbt-coursera/scala-grading.git
+    </developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>vjovanov</id>
+      <name>Vojin Jovanovic</name>
+      <url>https://github.com/vjovanov</url>
+    </developer>
+    <developer>
+      <id>sjrd</id>
+      <name>Sébastien Doeraene</name>
+      <url>https://github.com/sjrd/</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.11</artifactId>
+      <version>2.2.1</version>
+    </dependency>
+  </dependencies>
+</project>
+

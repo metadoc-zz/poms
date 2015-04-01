@@ -1,0 +1,55 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.scalameta</groupId>
+  <artifactId>interpreter_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>Typed AST interpreter for scala.meta</description>
+  <version>0.1.0-M0</version>
+  <name>interpreter</name>
+  <organization>
+    <name>org.scalameta</name>
+  </organization>
+  <url>https://github.com/scalameta/interpreter</url>
+  <inceptionYear>2014</inceptionYear>
+  <licenses>
+    <license>
+      <name>BSD-like</name>
+      <url>http://www.scala-lang.org/downloads/license.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git://github.com/scalameta/interpreter.git</url>
+    <connection>scm:git:git://github.com/scalameta/interpreter.git</connection>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/scalameta/interpreter/issues</url>
+  </issueManagement>
+  <developers>
+    <developer>
+      <id>xeno-by</id>
+      <name>Eugene Burmako</name>
+      <url>http://xeno.by</url>
+    </developer>
+    <developer>
+      <id>dedoz</id>
+      <name>Mikhail Mutcianko</name>
+      <url>http://github.com/dedoz</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalameta</groupId>
+      <artifactId>scalameta_2.11</artifactId>
+      <version>0.1.0-M0</version>
+    </dependency>
+  </dependencies>
+</project>
+

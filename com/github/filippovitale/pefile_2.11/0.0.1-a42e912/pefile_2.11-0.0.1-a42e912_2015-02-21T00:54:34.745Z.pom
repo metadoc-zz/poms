@@ -1,0 +1,79 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.filippovitale</groupId>
+  <artifactId>pefile_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>yet another pe analyser</description>
+  <url>https://github.com/filippovitale/pefile</url>
+  <version>0.0.1-a42e912</version>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>pefile</name>
+  <organization>
+    <name>com.github.filippovitale</name>
+    <url>https://github.com/filippovitale/pefile</url>
+  </organization>
+  <developers>
+    <developer>
+      <id>filippovitale</id>
+      <name>Filippo Vitale</name>
+      <url>https://github.com/filippovitale</url>
+    </developer>
+  </developers>
+  <scm>
+    <url>git@github.com:filippovitale/pefile.git</url>
+    <connection>scm:git:git@github.com:filippovitale/pefile.git</connection>
+    <tag> a42e91219f4e020fcc301a6334885b9fcea3d63e </tag>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scodec</groupId>
+      <artifactId>scodec-core_2.11</artifactId>
+      <version>1.7.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2_2.11</artifactId>
+      <version>2.4.15</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalacheck</groupId>
+      <artifactId>scalacheck_2.11</artifactId>
+      <version>1.12.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>ScalazBintrayRepo</id>
+      <name>Scalaz Bintray Repo</name>
+      <url>http://dl.bintray.com/scalaz/releases/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>BintrayJCenter</id>
+      <name>BintrayJCenter</name>
+      <url>http://jcenter.bintray.com/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>BintrayResolvefilippovitalemaven</id>
+      <name>Bintray-Resolve-filippovitale-maven</name>
+      <url>http://dl.bintray.com/content/filippovitale/maven/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

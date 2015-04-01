@@ -1,0 +1,59 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.merle</groupId>
+  <artifactId>auth-module_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>
+    A common play module for authentication, it use play2-reactivemongo and play-silhouette
+  </description>
+  <version>0.0</version>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>auth-module</name>
+  <organization>
+    <name>com.merle</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.mohiva</groupId>
+      <artifactId>play-silhouette_2.11</artifactId>
+      <version>2.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.play.plugins</groupId>
+      <artifactId>play-plugins-mailer_2.11</artifactId>
+      <version>2.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.reactivemongo</groupId>
+      <artifactId>play2-reactivemongo_2.11</artifactId>
+      <version>0.10.5.akka23-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>SonatypeSnapshots</id>
+      <name>Sonatype Snapshots</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>BintrayResolvemerlemaven</id>
+      <name>Bintray-Resolve-merle-maven</name>
+      <url>http://dl.bintray.com/content/merle/maven/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

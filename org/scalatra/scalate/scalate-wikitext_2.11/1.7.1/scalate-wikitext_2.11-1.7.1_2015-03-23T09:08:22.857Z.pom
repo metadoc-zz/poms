@@ -1,0 +1,54 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.scalatra.scalate</groupId>
+    <artifactId>scalate-project_2.11</artifactId>
+    <version>1.7.1</version>
+  </parent>
+  <artifactId>scalate-wikitext_2.11</artifactId>
+  <packaging>bundle</packaging>
+  <name>${project.artifactId}</name>
+  <description>
+    WikiText Integration for Markdown and Confluence wiki notations
+  </description>
+  <dependencies>
+    <dependency>
+      <groupId>org.scalatra.scalate</groupId>
+      <artifactId>scalate-core_2.11</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.fusesource.wikitext</groupId>
+      <artifactId>confluence-core</artifactId>
+      <version>${wikitext-version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.fusesource.wikitext</groupId>
+      <artifactId>textile-core</artifactId>
+      <version>${wikitext-version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatra.scalate</groupId>
+      <artifactId>scalate-test_2.11</artifactId>
+      <version>${project.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>${scalatest-artifact}</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

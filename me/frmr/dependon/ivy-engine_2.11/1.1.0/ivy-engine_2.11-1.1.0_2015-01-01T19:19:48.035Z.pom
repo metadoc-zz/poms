@@ -1,0 +1,64 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.frmr.dependon</groupId>
+  <artifactId>ivy-engine_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>ivy-engine</description>
+  <version>1.1.0</version>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>ivy-engine</name>
+  <organization>
+    <name>me.frmr.dependon</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.4</version>
+    </dependency>
+    <dependency>
+      <groupId>me.frmr.dependon</groupId>
+      <artifactId>engine-api_2.11</artifactId>
+      <version>0.6.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang.modules</groupId>
+      <artifactId>scala-xml_2.11</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.11</artifactId>
+      <version>2.2.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>1.9.5</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>Sonatypereleases</id>
+      <name>Sonatype releases</name>
+      <url>https://oss.sonatype.org/content/repositories/releases/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>BintrayResolvefarmdawgnationdependonengines</id>
+      <name>Bintray-Resolve-farmdawgnation-dependon-engines</name>
+      <url>http://dl.bintray.com/content/farmdawgnation/dependon-engines/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

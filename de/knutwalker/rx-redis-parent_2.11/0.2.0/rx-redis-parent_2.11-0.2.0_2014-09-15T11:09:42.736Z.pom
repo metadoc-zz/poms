@@ -1,0 +1,70 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.knutwalker</groupId>
+  <artifactId>rx-redis-parent_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>Reactive Extensions for Redis</description>
+  <url>https://github.com/knutwalker/rx-redis</url>
+  <version>0.2.0</version>
+  <licenses>
+    <license>
+      <name>Apache License, Verison 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>rx-redis-parent</name>
+  <inceptionYear>2014</inceptionYear>
+  <organization>
+    <name>de.knutwalker</name>
+    <url>https://github.com/knutwalker/rx-redis</url>
+  </organization>
+  <scm>
+    <url>https://github.com/knutwalker/rx-redis</url>
+    <connection>scm:git:https://github.com/knutwalker/rx-redis.git</connection>
+    <developerConnection>
+      scm:git:ssh://git@github.com:knutwalker/rx-redis.git
+    </developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>knutwalker</id>
+      <name>Paul Horn</name>
+      <url>http://knutwalker.de/</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.2</version>
+    </dependency>
+    <dependency>
+      <groupId>de.knutwalker</groupId>
+      <artifactId>rx-redis-scala_2.11</artifactId>
+      <version>0.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>de.knutwalker</groupId>
+      <artifactId>rx-redis-java_2.11</artifactId>
+      <version>0.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>de.knutwalker</groupId>
+      <artifactId>rx-redis-client_2.11</artifactId>
+      <version>0.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>de.knutwalker</groupId>
+      <artifactId>rx-redis-pipeline_2.11</artifactId>
+      <version>0.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>de.knutwalker</groupId>
+      <artifactId>rx-redis-core_2.11</artifactId>
+      <version>0.2.0</version>
+    </dependency>
+  </dependencies>
+</project>
+

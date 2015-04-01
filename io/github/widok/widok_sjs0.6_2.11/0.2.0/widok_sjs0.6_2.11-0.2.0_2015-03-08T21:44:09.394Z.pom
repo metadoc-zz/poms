@@ -1,0 +1,64 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.widok</groupId>
+  <artifactId>widok_sjs0.6_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>widok</description>
+  <version>0.2.0</version>
+  <name>widok</name>
+  <organization>
+    <name>io.github.widok</name>
+  </organization>
+  <url>http://widok.github.io/</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.html</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>git://github.com/widok/widok.git</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>tindzk</id>
+      <name>Tim Nieradzik</name>
+      <url>http://github.com/tindzk/</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-js</groupId>
+      <artifactId>scalajs-library_2.11</artifactId>
+      <version>0.6.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-js</groupId>
+      <artifactId>scalajs-dom_sjs0.6_2.11</artifactId>
+      <version>0.8.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.monifu</groupId>
+      <artifactId>minitest_sjs0.6_2.11</artifactId>
+      <version>0.11</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>font-awesome</artifactId>
+      <version>4.3.0-1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>bootstrap</artifactId>
+      <version>3.3.2</version>
+    </dependency>
+  </dependencies>
+</project>
+

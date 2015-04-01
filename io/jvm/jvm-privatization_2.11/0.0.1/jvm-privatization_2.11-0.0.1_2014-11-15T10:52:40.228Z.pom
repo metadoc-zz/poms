@@ -1,0 +1,66 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.jvm</groupId>
+  <artifactId>jvm-privatization_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>jvm-privatization</description>
+  <url>http://jvm.io</url>
+  <version>0.0.1</version>
+  <licenses>
+    <license>
+      <name>BSD-style</name>
+      <url>http://opensource.org/licenses/BSD-3-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>jvm-privatization</name>
+  <inceptionYear>2014</inceptionYear>
+  <organization>
+    <name>io.jvm</name>
+    <url>http://jvm.io</url>
+  </organization>
+  <scm>
+    <url>https://github.com/melezov/jvm-privatization</url>
+    <connection>
+      scm:git:https://github.com/melezov/jvm-privatization.git
+    </connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>melezov</id>
+      <name>Marko Elezović</name>
+      <url>https://github.com/melezov</url>
+    </developer>
+    <developer>
+      <id>rinmalavi</id>
+      <name>Marin Vila</name>
+      <url>https://github.com/rinmalavi</url>
+    </developer>
+    <developer>
+      <id>zapov</id>
+      <name>Rikard Pavelić</name>
+      <url>https://github.com/zapov</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2-core_2.11</artifactId>
+      <version>2.4.11</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.4</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

@@ -1,0 +1,29 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.scalakata</groupId>
+  <artifactId>frontend_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>frontend</description>
+  <version>0.1-20140710T222839</version>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://www.opensource.org/licenses/mit-license.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>frontend</name>
+  <organization>
+    <name>com.scalakata</name>
+  </organization>
+  <repositories>
+    <repository>
+      <id>BintrayResolvemasseguillaumemaven</id>
+      <name>Bintray-Resolve-masseguillaume-maven</name>
+      <url>http://dl.bintray.com/content/masseguillaume/maven/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

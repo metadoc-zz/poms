@@ -1,0 +1,47 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>uk.co.turingatemyhamster</groupId>
+  <artifactId>scalarx_shared_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>scalarx_shared</description>
+  <version>0.2.6</version>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>scalarx_shared</name>
+  <organization>
+    <name>uk.co.turingatemyhamster</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.4</version>
+    </dependency>
+    <dependency>
+      <groupId>com.lihaoyi</groupId>
+      <artifactId>acyclic_2.11</artifactId>
+      <version>0.1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.lihaoyi</groupId>
+      <artifactId>utest_2.11</artifactId>
+      <version>0.2.4</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>BintrayResolvedrdozermaven</id>
+      <name>Bintray-Resolve-drdozer-maven</name>
+      <url>http://dl.bintray.com/content/drdozer/maven/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

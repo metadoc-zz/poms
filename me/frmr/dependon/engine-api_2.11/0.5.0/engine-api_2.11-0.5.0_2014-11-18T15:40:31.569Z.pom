@@ -1,0 +1,60 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.frmr.dependon</groupId>
+  <artifactId>engine-api_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>engine-api</description>
+  <version>0.5.0</version>
+  <name>engine-api</name>
+  <organization>
+    <name>me.frmr.dependon</name>
+  </organization>
+  <url>https://github.com/dependon/engine-api</url>
+  <licenses>
+    <license>
+      <name>Apache 2</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/dependon/engine-api.git</url>
+    <connection>https://github.com/dependon/engine-api.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>farmdawgnation</id>
+      <name>Matt Farmer</name>
+      <email>matt@frmr.me</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.4</version>
+    </dependency>
+    <dependency>
+      <groupId>net.liftweb</groupId>
+      <artifactId>lift-common_2.11</artifactId>
+      <version>2.6-RC1</version>
+    </dependency>
+    <dependency>
+      <groupId>net.liftweb</groupId>
+      <artifactId>lift-util_2.11</artifactId>
+      <version>2.6-RC1</version>
+    </dependency>
+    <dependency>
+      <groupId>net.liftweb</groupId>
+      <artifactId>lift-json_2.11</artifactId>
+      <version>2.6-RC1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.kohsuke</groupId>
+      <artifactId>github-api</artifactId>
+      <version>1.58</version>
+    </dependency>
+  </dependencies>
+</project>
+

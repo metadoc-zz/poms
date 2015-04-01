@@ -1,0 +1,64 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.morgaroth</groupId>
+  <artifactId>navigator-import-core_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>navigator-import-core</description>
+  <version>1.0.7</version>
+  <name>navigator-import-core</name>
+  <organization>
+    <name>io.github.morgaroth</name>
+  </organization>
+  <url>https://bitbucket.org/Morgaroth/navigator-import-core/overview</url>
+  <licenses>
+    <license>
+      <name>BSD-style</name>
+      <url>http://www.opensource.org/licenses/bsd-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@bitbucket.org:Morgaroth/navigator-import-core.git</url>
+    <connection>
+      scm:git:git@bitbucket.org:Morgaroth/navigator-import-core.git
+    </connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>morgaroth</id>
+      <name>Mateusz Jaje</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang.modules</groupId>
+      <artifactId>scala-xml_2.11</artifactId>
+      <version>1.0.2</version>
+      <classifier>sources</classifier>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang.modules</groupId>
+      <artifactId>scala-xml_2.11</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2-core_2.11</artifactId>
+      <version>2.4.15</version>
+      <classifier>sources</classifier>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2-core_2.11</artifactId>
+      <version>2.4.15</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

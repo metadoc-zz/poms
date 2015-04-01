@@ -1,0 +1,75 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.fusesource.scalate</groupId>
+    <artifactId>scalate-project_2.10</artifactId>
+    <version>1.6.1</version>
+  </parent>
+  <artifactId>scalate-jrebel_2.10</artifactId>
+  <name>Scalate JRebel</name>
+  <description>
+    JRebel plugin to reload Scalate templates on class reload
+  </description>
+  <dependencies>
+    <dependency>
+      <groupId>org.fusesource.scalate</groupId>
+      <artifactId>scalate-core_2.10</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.zeroturnaround</groupId>
+      <artifactId>jr-sdk</artifactId>
+      <version>4.6.2</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.zeroturnaround</groupId>
+        <artifactId>javarebel-maven-plugin</artifactId>
+        <version>1.0.5</version>
+        <executions>
+          <execution>
+            <id>generate-rebel-xml</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>generate</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <packaging>jar</packaging>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <profiles>
+    <profile>
+      <id>download</id>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>zt-repo</id>
+          <name>Zero turnaround repo</name>
+          <url>http://repos.zeroturnaround.com/nexus/content/groups/zt-public</url>
+        </pluginRepository>
+      </pluginRepositories>
+      <repositories>
+        <repository>
+          <id>zt-repo</id>
+          <url>http://repos.zeroturnaround.com/nexus/content/groups/zt-public</url>
+          <releases>
+            <updatePolicy>always</updatePolicy>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <updatePolicy>always</updatePolicy>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+</project>
+

@@ -1,0 +1,60 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.mlangc</groupId>
+  <artifactId>bracket-expression-beautifier_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>bracket-expression-beautifier</description>
+  <version>1.0</version>
+  <name>bracket-expression-beautifier</name>
+  <organization>
+    <name>com.github.mlangc</name>
+  </organization>
+  <url>https://github.com/mlangc/bracket-expression-beautifier</url>
+  <licenses>
+    <license>
+      <name>BSD-3-Clause</name>
+      <url>http://opensource.org/licenses/BSD-3-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>scm:git:https://github.com/mlangc/bracket-expression-beautifier</url>
+    <connection>
+      scm:git:https://github.com/mlangc/bracket-expression-beautifier.git
+    </connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>mlangc</id>
+      <name>Matthias Langer</name>
+      <url>http://mlangc.wordpress.com/</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.11</artifactId>
+      <version>2.2.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.storm-enroute</groupId>
+      <artifactId>scalameter_2.11</artifactId>
+      <version>0.6</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

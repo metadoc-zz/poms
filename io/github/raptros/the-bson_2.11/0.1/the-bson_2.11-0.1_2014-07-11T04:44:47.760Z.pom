@@ -1,0 +1,73 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.raptros</groupId>
+  <artifactId>the-bson_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>
+    typeclass-based utility for encoding and decoding mongo db objects in Scala
+  </description>
+  <url>http://raptros.github.io/the-bson/</url>
+  <version>0.1</version>
+  <licenses>
+    <license>
+      <name>BSD-3-Clause</name>
+      <url>http://www.opensource.org/licenses/BSD-3-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>the-bson</name>
+  <inceptionYear>2014</inceptionYear>
+  <organization>
+    <name>io.github.raptros</name>
+    <url>http://raptros.github.io/the-bson/</url>
+  </organization>
+  <scm>
+    <connection>scm:git:git@github.com:raptros/the-bson.git</connection>
+    <developerConnection>
+      scm:git:git@github.com:raptros/the-bson.git
+    </developerConnection>
+    <url>git@github.com:raptros/the-bson.git</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>raptros</id>
+      <name>Aidan Coyne</name>
+      <url>http://github.com/raptros</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mongodb</groupId>
+      <artifactId>mongo-java-driver</artifactId>
+      <version>2.12.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.joda</groupId>
+      <artifactId>joda-convert</artifactId>
+      <version>1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>joda-time</groupId>
+      <artifactId>joda-time</artifactId>
+      <version>2.3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalaz</groupId>
+      <artifactId>scalaz-core_2.11</artifactId>
+      <version>7.0.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.11</artifactId>
+      <version>2.1.6</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+
