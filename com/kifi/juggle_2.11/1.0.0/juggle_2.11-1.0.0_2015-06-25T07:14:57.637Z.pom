@@ -1,0 +1,56 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kifi</groupId>
+  <artifactId>juggle_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>juggle</description>
+  <version>1.0.0</version>
+  <name>juggle</name>
+  <organization>
+    <name>com.kifi</name>
+  </organization>
+  <url>https://github.com/kifi/juggle</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:kifi/juggle.git</url>
+    <connection>scm:git:git@github.com:kifi/juggle.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>leogrim</id>
+      <name>Léo Grimaldi</name>
+      <url>https://github.com/leogrim</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2-core_2.11</artifactId>
+      <version>3.6</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-actor_2.11</artifactId>
+      <version>2.4-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.2</version>
+    </dependency>
+  </dependencies>
+</project>
+

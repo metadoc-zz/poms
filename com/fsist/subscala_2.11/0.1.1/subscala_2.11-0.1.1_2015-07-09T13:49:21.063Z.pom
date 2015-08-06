@@ -1,0 +1,79 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fsist</groupId>
+  <artifactId>subscala_2.11</artifactId>
+  <version>0.1.1</version>
+  <name>safepickle</name>
+  <description>
+    Configurable restrictions on Scala syntax and method calls for building DSLs.
+  </description>
+  <url>https://github.com/fsist/safepickle</url>
+  <organization>
+    <name>Sentrix</name>
+    <url>http://www.sentrix.com/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>danarmak</id>
+      <name>Daniel Armak</name>
+      <email>daniel@sentrix.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:fsist/subscala.git</connection>
+    <developerConnection>git@github.com:fsist/subscala.git</developerConnection>
+    <url>https://github.com/fsist/subscala</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-reflect</artifactId>
+      <version>2.11.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.11</artifactId>
+      <version>2.2.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-compiler</artifactId>
+      <version>2.11.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.chuusai</groupId>
+      <artifactId>shapeless_2.11</artifactId>
+      <version>2.1.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.pegdown</groupId>
+      <artifactId>pegdown</artifactId>
+      <version>1.4.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.1.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

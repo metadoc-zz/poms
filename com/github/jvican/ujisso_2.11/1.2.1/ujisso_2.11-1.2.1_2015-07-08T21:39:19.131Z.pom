@@ -1,0 +1,79 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.jvican</groupId>
+  <artifactId>ujisso_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>
+    Module to authenticate against UJI SSO (Jaume I University, Spain)
+  </description>
+  <version>1.2.1</version>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>ujisso</name>
+  <organization>
+    <name>com.github.jvican</name>
+  </organization>
+  <url>https://github.com/jvican/ujisso</url>
+  <scm>
+    <url>https://github.com/jvican/ujisso.git</url>
+    <connection>scm:git:git@github.com:jvican/ujisso.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>jvican</id>
+      <name>Jorge Vicente Cantero</name>
+      <url>https://github.com/jvican</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.jvican</groupId>
+      <artifactId>xmlrpc_2.11</artifactId>
+      <version>1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>me.lessis</groupId>
+      <artifactId>base64_2.11</artifactId>
+      <version>0.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.spray</groupId>
+      <artifactId>spray-routing-shapeless2_2.11</artifactId>
+      <version>1.3.3</version>
+    </dependency>
+    <dependency>
+      <groupId>io.spray</groupId>
+      <artifactId>spray-testkit_2.11</artifactId>
+      <version>1.3.3</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-actor_2.11</artifactId>
+      <version>2.3.9</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalaz</groupId>
+      <artifactId>scalaz-core_2.11</artifactId>
+      <version>7.1.3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2-core_2.11</artifactId>
+      <version>2.4.15</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

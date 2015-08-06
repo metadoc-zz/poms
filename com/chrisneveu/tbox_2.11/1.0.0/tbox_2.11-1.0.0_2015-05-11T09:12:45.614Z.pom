@@ -1,0 +1,46 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.chrisneveu</groupId>
+  <artifactId>tbox_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>tbox</description>
+  <version>1.0.0</version>
+  <name>tbox</name>
+  <organization>
+    <name>com.chrisneveu</name>
+  </organization>
+  <url>https://github.com/ChrisNeveu/TBox</url>
+  <licenses>
+    <license>
+      <name>BSD 3-Clause</name>
+      <url>https://raw.githubusercontent.com/ChrisNeveu/TBox/master/LICENSE</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:github.com/ChrisNeveu/TBox.git</connection>
+    <developerConnection>
+      scm:git:git@github.com:ChrisNeveu/TBox.git
+    </developerConnection>
+    <url>git@github.com:ChrisNeveu/TBox</url>
+  </scm>
+  <developers>
+    <developer>
+      <name>Chris Neveu</name>
+      <url>chrisneveu.com</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-compiler</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+  </dependencies>
+</project>
+

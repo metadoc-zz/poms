@@ -1,0 +1,54 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>im.mange</groupId>
+  <artifactId>little-server_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>little-server</description>
+  <url>https://github.com/alltonp/little-server</url>
+  <version>0.0.8</version>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>little-server</name>
+  <organization>
+    <name>im.mange</name>
+    <url>https://github.com/alltonp/little-server</url>
+  </organization>
+  <scm>
+    <url>git@github.com:alltonp/little-server.git</url>
+    <connection>scm:git:git@github.com:alltonp/little-server.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>alltonp</id>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-webapp</artifactId>
+      <version>9.2.10.v20150310</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-server</artifactId>
+      <version>9.2.10.v20150310</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
+    </dependency>
+  </dependencies>
+</project>
+

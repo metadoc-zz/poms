@@ -1,0 +1,45 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cc.p2k</groupId>
+  <artifactId>centrality_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>Centrality</description>
+  <version>1.0</version>
+  <name>Centrality</name>
+  <organization>
+    <name>cc.p2k</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.7</version>
+    </dependency>
+    <dependency>
+      <groupId>com.twitter</groupId>
+      <artifactId>algebird-core_2.11</artifactId>
+      <version>0.10.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.11</artifactId>
+      <version>2.2.4</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.assembla.scala-incubator</groupId>
+      <artifactId>graph-core_2.11</artifactId>
+      <version>1.9.3</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>bintraywebgeistmaven</id>
+      <name>bintray-webgeist-maven</name>
+      <url>https://dl.bintray.com/webgeist/maven/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

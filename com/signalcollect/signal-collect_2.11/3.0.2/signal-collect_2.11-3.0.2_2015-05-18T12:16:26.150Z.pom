@@ -1,0 +1,168 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.signalcollect</groupId>
+  <artifactId>signal-collect_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>signal-collect</description>
+  <version>3.0.2</version>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>signal-collect</name>
+  <organization>
+    <name>com.signalcollect</name>
+  </organization>
+  <url>https://github.com/uzh/signal-collect</url>
+  <scm>
+    <url>git@github.com:uzh/signal-collect.git</url>
+    <connection>scm:git:git@github.com:uzh/signal-collect.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>pstutz</id>
+      <name>Philip Stutz</name>
+      <url>https://github.com/pstutz</url>
+    </developer>
+    <developer>
+      <id>cshapeshifter</id>
+      <name>Carol Alexandru</name>
+      <url>https://github.com/cshapeshifter</url>
+    </developer>
+    <developer>
+      <id>troxler</id>
+      <name>Silvan Troxler</name>
+      <url>https://github.com/troxler</url>
+    </developer>
+    <developer>
+      <id>danistrebel</id>
+      <name>Daniel Strebel</name>
+      <url>https://github.com/danistrebel</url>
+    </developer>
+    <developer>
+      <id>elaverman</id>
+      <name>Mihaela Verman</name>
+      <url>https://github.com/elaverman</url>
+    </developer>
+    <developer>
+      <id>lorenzfischer</id>
+      <name>Lorenz Fischer</name>
+      <url>https://github.com/lorenzfischer</url>
+    </developer>
+    <developer>
+      <id>tmsklr</id>
+      <name>Thomas Keller</name>
+      <url>https://github.com/tmsklr</url>
+    </developer>
+    <developer>
+      <id>bibekp</id>
+      <name>Bibek Paudel</name>
+      <url>https://github.com/bibekp</url>
+    </developer>
+    <developer>
+      <id>rampalli-github</id>
+      <name>S. Rampalli</name>
+      <url>https://github.com/rampalli-github</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-actor_2.11</artifactId>
+      <version>2.3.11</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-remote_2.11</artifactId>
+      <version>2.3.11</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.romix.akka</groupId>
+      <artifactId>akka-kryo-serialization_2.11</artifactId>
+      <version>0.3.3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.json4s</groupId>
+      <artifactId>json4s-native_2.11</artifactId>
+      <version>3.2.11</version>
+    </dependency>
+    <dependency>
+      <groupId>org.java-websocket</groupId>
+      <artifactId>Java-WebSocket</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>d3js</artifactId>
+      <version>3.5.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>jquery</artifactId>
+      <version>2.1.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>reconnecting-websocket</artifactId>
+      <version>23d2fbc</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>intro.js</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.11</artifactId>
+      <version>2.2.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalacheck</groupId>
+      <artifactId>scalacheck_2.11</artifactId>
+      <version>1.12.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.easymock</groupId>
+      <artifactId>easymock</artifactId>
+      <version>3.3.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>bintraypstutzmaven</id>
+      <name>bintray-pstutz-maven</name>
+      <url>https://dl.bintray.com/pstutz/maven/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>ScalaToolsRepository</id>
+      <name>Scala-Tools Repository</name>
+      <url>https://oss.sonatype.org/content/groups/scala-tools/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>SonatypeSnapshotsRepository</id>
+      <name>Sonatype Snapshots Repository</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>IfiPublic</id>
+      <name>Ifi Public</name>
+      <url>https://maven.ifi.uzh.ch/maven2/content/groups/public/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

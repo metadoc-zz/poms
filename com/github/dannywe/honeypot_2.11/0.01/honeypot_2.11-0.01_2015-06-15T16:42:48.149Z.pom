@@ -1,0 +1,50 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.dannywe</groupId>
+  <artifactId>honeypot_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>honeypot</description>
+  <url>https://git.realestate.com.au/danny-dong/honeypot</url>
+  <version>0.01</version>
+  <name>honeypot</name>
+  <organization>
+    <name>com.github.dannywe</name>
+    <url>https://git.realestate.com.au/danny-dong/honeypot</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>BSD-style</name>
+      <url>http://opensource.org/licenses/Apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@git.realestate.com.au:danny-dong/honeypot.git</url>
+    <connection>
+      scm:git:git@git.realestate.com.au:danny-dong/honeypot.git
+    </connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>danny.dong</id>
+      <name>Xiaohe Dong</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.2</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>typesafereleases</id>
+      <name>typesafe-releases</name>
+      <url>http://repo.typesafe.com/typesafe/releases/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

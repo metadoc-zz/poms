@@ -1,0 +1,52 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.florinn</groupId>
+  <artifactId>veryfay_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>Activity based authorization library for Scala</description>
+  <url>https://github.com/florinn/veryfay-scala</url>
+  <version>0.1</version>
+  <licenses>
+    <license>
+      <name>MIT license</name>
+      <url>https://github.com/florinn/veryfay-scala/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>veryfay</name>
+  <inceptionYear>2015</inceptionYear>
+  <organization>
+    <name>com.github.florinn</name>
+    <url>https://github.com/florinn/veryfay-scala</url>
+  </organization>
+  <developers>
+    <developer>
+      <name>Florin Nitoi</name>
+      <email>florin.nitoi@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>git@github.com:florinn/veryfay-scala.git</url>
+    <connection>scm:git:git@github.com:florinn/veryfay-scala.git</connection>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-reflect</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.11</artifactId>
+      <version>2.2.4</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

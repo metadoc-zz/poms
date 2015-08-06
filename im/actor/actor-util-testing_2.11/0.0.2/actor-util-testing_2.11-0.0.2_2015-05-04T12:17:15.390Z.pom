@@ -1,0 +1,63 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>im.actor</groupId>
+  <artifactId>actor-util-testing_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>actor-util-testing</description>
+  <version>0.0.2</version>
+  <name>actor-util-testing</name>
+  <organization>
+    <name>im.actor</name>
+  </organization>
+  <url>http://github.com/actorapp/actor-util</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://www.opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:actorapp/actor-util.git</url>
+    <connection>scm:git:git@github.com:actorapp/actor-util.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>prettynatty</id>
+      <name>Andrey Kuznetsov</name>
+      <url>http://fear.loathing.in</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-actor_2.11</artifactId>
+      <version>2.3.10</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-testkit_2.11</artifactId>
+      <version>2.3.10</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.11</artifactId>
+      <version>2.2.4</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>bintrayscalazreleases</id>
+      <name>bintray-scalaz-releases</name>
+      <url>https://dl.bintray.com/scalaz/releases/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

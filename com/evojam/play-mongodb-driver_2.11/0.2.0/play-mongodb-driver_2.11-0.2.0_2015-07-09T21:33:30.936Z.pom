@@ -1,0 +1,71 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.evojam</groupId>
+  <artifactId>play-mongodb-driver_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>play-mongodb-driver</description>
+  <url>https://github.com/evojam/play-mongodb-driver</url>
+  <version>0.2.0</version>
+  <licenses>
+    <license>
+      <name>Apache 2.0 License</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>play-mongodb-driver</name>
+  <organization>
+    <name>com.evojam</name>
+    <url>https://github.com/evojam/play-mongodb-driver</url>
+  </organization>
+  <scm>
+    <url>git@github.com:evojam/play-mongodb-driver.git</url>
+    <connection>scm:git:git@github.com:evojam/play-mongodb-driver.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>dumpstate</id>
+      <name>Albert Sadowski</name>
+    </developer>
+    <developer>
+      <id>duketon</id>
+      <name>Michael Kendra</name>
+      <url>http://michaelkendra.me/</url>
+    </developer>
+    <developer>
+      <id>abankowski</id>
+      <name>Artur Bańkowski</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2-core_2.11</artifactId>
+      <version>2.4.11</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2-junit_2.11</artifactId>
+      <version>2.4.11</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.play</groupId>
+      <artifactId>play_2.11</artifactId>
+      <version>2.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.evojam</groupId>
+      <artifactId>mongo-driver-scala_2.11</artifactId>
+      <version>0.4.1</version>
+    </dependency>
+  </dependencies>
+</project>
+

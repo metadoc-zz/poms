@@ -1,0 +1,78 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dwijnand</groupId>
+  <artifactId>playjssson_2.10</artifactId>
+  <packaging>jar</packaging>
+  <description>
+    A micro-library that adds snake case support to play-json
+  </description>
+  <url>https://github.com/dwijnand/playjssson</url>
+  <version>0.1.0</version>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>playjssson</name>
+  <organization>
+    <name>com.dwijnand</name>
+    <url>https://github.com/dwijnand/playjssson</url>
+  </organization>
+  <developers>
+    <developer>
+      <id>dwijnand</id>
+      <name>Dale Wijnand</name>
+      <email>dale wijnand gmail com</email>
+      <url>dwijnand.com</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/dwijnand/playjssson.git</connection>
+    <developerConnection>
+      scm:git:git@github.com:dwijnand/playjssson.git
+    </developerConnection>
+    <url>https://github.com/dwijnand/playjssson</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.10.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.play</groupId>
+      <artifactId>play-json_2.10</artifactId>
+      <version>2.4.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2-core_2.10</artifactId>
+      <version>3.6.3</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2-scalacheck_2.10</artifactId>
+      <version>3.6.3</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>sonatypereleases</id>
+      <name>sonatype-releases</name>
+      <url>https://oss.sonatype.org/content/repositories/releases/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>bintraydwijnandmaven</id>
+      <name>bintray-dwijnand-maven</name>
+      <url>https://dl.bintray.com/dwijnand/maven/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

@@ -1,0 +1,57 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.typesafe.phoenix</groupId>
+  <artifactId>cinnamon-coda-metrics_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>cinnamon-coda-metrics</description>
+  <version>0.1.0</version>
+  <licenses>
+    <license>
+      <name>Typesafe Subscription Agreement</name>
+      <url>
+        http://downloads.typesafe.com/website/legal/TypesafeSubscriptionAgreement.pdf
+      </url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>cinnamon-coda-metrics</name>
+  <organization>
+    <name>com.typesafe.phoenix</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6-bin-rp-15v01p05-instrumented-01</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.phoenix</groupId>
+      <artifactId>cinnamon-akka_2.11</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.dropwizard.metrics</groupId>
+      <artifactId>metrics-core</artifactId>
+      <version>3.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.dropwizard.metrics</groupId>
+      <artifactId>metrics-graphite</artifactId>
+      <version>3.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.11</artifactId>
+      <version>2.2.4</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>1.10.19</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

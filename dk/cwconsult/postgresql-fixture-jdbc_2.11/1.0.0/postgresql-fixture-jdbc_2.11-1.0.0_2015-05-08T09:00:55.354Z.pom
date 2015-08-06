@@ -1,0 +1,44 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dk.cwconsult</groupId>
+  <artifactId>postgresql-fixture-jdbc_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>postgresql-fixture-jdbc</description>
+  <version>1.0.0</version>
+  <name>postgresql-fixture-jdbc</name>
+  <organization>
+    <name>dk.cwconsult</name>
+  </organization>
+  <url>https://github.com/ClockworkConsulting/postgresql-fixture</url>
+  <licenses>
+    <license>
+      <name>BSD-2</name>
+      <url>http://opensource.org/licenses/BSD-2-Clause</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>
+      scm:git:github.com/ClockworkConsulting/postgresql-fixture
+    </connection>
+    <developerConnection>
+      scm:git:git@github.com:ClockworkConsulting/postgresql-fixture.git
+    </developerConnection>
+    <url>github.com/ClockworkConsulting/postgresql-fixture</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>BardurArantsson</id>
+      <name>Bardur Arantsson</name>
+      <url>https://www.cwconsult.dk</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+  </dependencies>
+</project>
+

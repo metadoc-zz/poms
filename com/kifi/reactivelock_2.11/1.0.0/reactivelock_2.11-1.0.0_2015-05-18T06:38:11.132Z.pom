@@ -1,0 +1,46 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kifi</groupId>
+  <artifactId>reactivelock_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>reactivelock</description>
+  <version>1.0.0</version>
+  <name>reactivelock</name>
+  <organization>
+    <name>com.kifi</name>
+  </organization>
+  <url>https://github.com/kifi/ReactiveLock</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:kifi/ReactiveLock.git</url>
+    <connection>scm:git:git@github.com:kifi/ReactiveLock.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>stkem</id>
+      <name>Stephen Kemmerling</name>
+      <url>https://github.com/stkem</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2-core_2.11</artifactId>
+      <version>3.6</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

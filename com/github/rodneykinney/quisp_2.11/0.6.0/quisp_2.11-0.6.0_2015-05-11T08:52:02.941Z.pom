@@ -1,0 +1,55 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.rodneykinney</groupId>
+  <artifactId>quisp_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>Quisp</description>
+  <version>0.6.0</version>
+  <name>Quisp</name>
+  <organization>
+    <name>com.github.rodneykinney</name>
+  </organization>
+  <url>https://github.com/rodneykinney/quisp</url>
+  <licenses>
+    <license>
+      <name>Apache 2</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:rodneykinney/quisp</url>
+    <connection>scm:git:git@github.com:rodneykinney/quisp.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>rodneykinney</id>
+      <name>Rodney Kinney</name>
+      <url>https://github.com/rodneykinney</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.5</version>
+    </dependency>
+    <dependency>
+      <groupId>io.spray</groupId>
+      <artifactId>spray-json_2.11</artifactId>
+      <version>1.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>net.databinder</groupId>
+      <artifactId>unfiltered-filter_2.11</artifactId>
+      <version>0.8.3</version>
+    </dependency>
+    <dependency>
+      <groupId>net.databinder</groupId>
+      <artifactId>unfiltered-jetty_2.11</artifactId>
+      <version>0.8.3</version>
+    </dependency>
+  </dependencies>
+</project>
+

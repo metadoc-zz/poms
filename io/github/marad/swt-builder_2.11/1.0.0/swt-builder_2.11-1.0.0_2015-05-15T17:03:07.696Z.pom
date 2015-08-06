@@ -1,0 +1,47 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.marad</groupId>
+  <artifactId>swt-builder_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>swt-builder</description>
+  <version>1.0.0</version>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>swt-builder</name>
+  <organization>
+    <name>io.github.marad</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.swt</groupId>
+      <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
+      <version>4.4</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>bintraymorituriusmaven</id>
+      <name>bintray-moriturius-maven</name>
+      <url>https://dl.bintray.com/moriturius/maven/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>swtrepo</id>
+      <name>swt-repo</name>
+      <url>https://swt-repo.googlecode.com/svn/repo/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

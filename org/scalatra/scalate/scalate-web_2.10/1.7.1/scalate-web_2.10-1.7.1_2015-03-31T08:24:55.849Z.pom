@@ -1,0 +1,41 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.scalatra.scalate</groupId>
+    <artifactId>scalate-project_2.10</artifactId>
+    <version>1.7.1</version>
+  </parent>
+  <artifactId>scalate-web_2.10</artifactId>
+  <packaging>pom</packaging>
+  <name>${project.artifactId}</name>
+  <description>
+    A single dependency for all the modules required to use scalate and the common wiki formats in a web application
+  so includes dependencies on servlets, scala-compiler, scalate-page etc
+  </description>
+  <properties> </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.scalatra.scalate</groupId>
+      <artifactId>scalate-page_2.10</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-compiler</artifactId>
+      <version>${scala-version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatra.scalate</groupId>
+      <artifactId>scalate-test_2.10</artifactId>
+      <version>${project.version}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

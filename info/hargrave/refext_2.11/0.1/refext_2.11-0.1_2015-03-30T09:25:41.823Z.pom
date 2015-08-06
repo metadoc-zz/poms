@@ -1,0 +1,48 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>info.hargrave</groupId>
+  <artifactId>refext_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>refext</description>
+  <url>https://github.com/romanhargrave/reference-extensions</url>
+  <version>0.1</version>
+  <licenses>
+    <license>
+      <name>Apache Software License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>refext</name>
+  <inceptionYear>2015</inceptionYear>
+  <organization>
+    <name>Roman Hargrave</name>
+    <url>http://hargrave.info</url>
+  </organization>
+  <scm>
+    <url>https://github.com/romanhargrave/reference-extensions</url>
+    <connection>git@github.com:romanhargrave/reference-extensions.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>rhargrave</id>
+      <name>Roman Hargrave</name>
+      <email>roman@hargrave.info</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest-all_2.11</artifactId>
+      <version>2.3.0-SNAP2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

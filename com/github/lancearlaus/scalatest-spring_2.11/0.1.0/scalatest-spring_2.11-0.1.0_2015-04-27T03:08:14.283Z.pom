@@ -1,0 +1,61 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.lancearlaus</groupId>
+  <artifactId>scalatest-spring_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>
+    A simple integration of ScalaTest with Spring to manage test context lifecycle. Uses standard Spring annotations and a stackable Scala trait.
+  </description>
+  <version>0.1.0</version>
+  <name>scalatest-spring</name>
+  <organization>
+    <name>com.github.lancearlaus</name>
+  </organization>
+  <url>http://github.com/lancearlaus/scalatest-spring</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:lancearlaus/scalatest-spring.git</url>
+    <connection>
+      scm:git:git@github.com:lancearlaus/scalatest-spring.git
+    </connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>lancearlaus</id>
+      <name>Lance Arlaus</name>
+      <url>http://lancearlaus.github.com</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.11</artifactId>
+      <version>
+        [2.2,2.3),[2.20,2.30),[2.200,2.300),[2.2000,2.3000),[2.20000,2.30000)
+      </version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>[4,5)</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>[4,5)</version>
+    </dependency>
+  </dependencies>
+</project>
+

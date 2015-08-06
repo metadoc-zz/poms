@@ -1,0 +1,45 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>akka-http-twirl</groupId>
+  <artifactId>akka-http-twirl_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>akka-http-twirl</description>
+  <version>0.1.0</version>
+  <name>akka-http-twirl</name>
+  <organization>
+    <name>akka-http-twirl</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.play</groupId>
+      <artifactId>twirl-api_2.11</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-http-experimental_2.11</artifactId>
+      <version>1.0-RC3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.11</artifactId>
+      <version>2.2.5</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>bintraybtomalamaven</id>
+      <name>bintray-btomala-maven</name>
+      <url>https://dl.bintray.com/btomala/maven/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

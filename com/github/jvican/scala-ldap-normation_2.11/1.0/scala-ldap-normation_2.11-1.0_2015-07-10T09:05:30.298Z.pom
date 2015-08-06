@@ -1,0 +1,62 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.jvican</groupId>
+  <artifactId>scala-ldap-normation_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>
+    Independent fork of scala-ldap (https://github.com/Normation/scala-ldap) ready to use and decoupled from the rudder-project.
+  </description>
+  <version>1.0</version>
+  <licenses>
+    <license>
+      <name>ASF License</name>
+      <url>http://opensource.org/licenses/Apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>scala-ldap-normation</name>
+  <organization>
+    <name>com.github.jvican</name>
+  </organization>
+  <url>https://github.com/jvican/scala-ldap-normation</url>
+  <scm>
+    <url>https://github.com/jvican/scala-ldap-normation.git</url>
+    <connection>scm:git:git@github.com:jvican/scala-ldap-normation.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>jvican</id>
+      <name>Jorge Vicente Cantero</name>
+      <url>https://github.com/jvican</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+    <dependency>
+      <groupId>com.unboundid</groupId>
+      <artifactId>unboundid-ldapsdk</artifactId>
+      <version>2.3.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-nop</artifactId>
+      <version>1.7.2</version>
+    </dependency>
+    <dependency>
+      <groupId>net.liftweb</groupId>
+      <artifactId>lift-common_2.11</artifactId>
+      <version>2.6.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.nscala-time</groupId>
+      <artifactId>nscala-time_2.11</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+  </dependencies>
+</project>
+

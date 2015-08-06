@@ -1,0 +1,71 @@
+<project>
+  <modelVersion 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    4.0.0
+</modelVersion>
+  <groupId 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    uk.gov.hmrc
+</groupId>
+  <artifactId 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    reactivemongo-bson_2.11
+</artifactId>
+  <packaging 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    jar
+</packaging>
+  <description 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    ReactiveMongo-BSON
+</description>
+  <url 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    http://reactivemongo.org
+</url>
+  <version>0.11.0</version>
+  <licenses 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <license>
+      <name>Apache 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+</licenses>
+  <name 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    ReactiveMongo-BSON
+</name>
+  <organization 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <name>uk.gov.hmrc</name>
+    <url>http://reactivemongo.org</url>
+</organization>
+  <scm 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <url>git://github.com/ReactiveMongo/ReactiveMongo.git</url>
+    <connection>scm:git://github.com/ReactiveMongo/ReactiveMongo.git</connection>
+</scm>
+  <developers 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <developer>
+      <id>sgodbillon</id>
+      <name>Stephane Godbillon</name>
+      <url>http://stephane.godbillon.com</url>
+    </developer>
+</developers>
+  <dependencies 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2-core_2.11</artifactId>
+      <version>2.4.9</version>
+      <scope>test</scope>
+    </dependency>
+</dependencies>
+</project>

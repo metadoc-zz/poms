@@ -1,0 +1,53 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.baghino</groupId>
+  <artifactId>clf4s_2.11</artifactId>
+  <packaging>jar</packaging>
+  <description>clf4s</description>
+  <version>0.0.1</version>
+  <name>clf4s</name>
+  <organization>
+    <name>me.baghino</name>
+  </organization>
+  <url>https://github.com/stefanobaghino/clf4s</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/stefanobaghino/clf4s/LICENSE.md</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:github.com/stefanobaghino/clf4s.git</connection>
+    <developerConnection>
+      scm:git:git@github.com:stefanobaghino/clf4s.git
+    </developerConnection>
+    <url>https://github.com/stefanobaghino/clf4s</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>stefanobaghino</id>
+      <name>Stefano Baghino</name>
+      <url>http://baghino.me/</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.11.6</version>
+    </dependency>
+    <dependency>
+      <groupId>joda-time</groupId>
+      <artifactId>joda-time</artifactId>
+      <version>2.7</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.11</artifactId>
+      <version>2.2.4</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+
