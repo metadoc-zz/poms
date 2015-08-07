@@ -1,0 +1,6 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.debasishg</groupId>
+  <artifactId>sjson_2.9.0.RC1</artifactId>
+  <version>0.10</version>
+</project>

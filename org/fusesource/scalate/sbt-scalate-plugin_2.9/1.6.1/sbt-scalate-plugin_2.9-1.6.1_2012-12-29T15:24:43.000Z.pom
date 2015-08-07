@@ -1,0 +1,61 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.fusesource.scalate</groupId>
+    <artifactId>scalate-project_2.9</artifactId>
+    <version>1.6.1</version>
+  </parent>
+  <artifactId>sbt-scalate-plugin_2.9</artifactId>
+  <packaging>jar</packaging>
+  <name>${project.artifactId}</name>
+  <description>An SBT Maven Plugin</description>
+  <prerequisites>
+    <maven>${maven-version}</maven>
+  </prerequisites>
+  <properties>
+    <scala-version>2.7.7</scala-version>
+    <sbt-version>0.7.5.RC0</sbt-version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.fusesource.scalate.sbt</groupId>
+      <artifactId>sbt_${scala-version}</artifactId>
+      <version>${sbt-version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.fusesource.scalate.sbt</groupId>
+      <artifactId>compile_${scala-version}</artifactId>
+      <version>${sbt-version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.fusesource.scalate.sbt</groupId>
+      <artifactId>ivy_${scala-version}</artifactId>
+      <version>${sbt-version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.fusesource.scalate.sbt</groupId>
+      <artifactId>interface</artifactId>
+      <version>${sbt-version}</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <sourceDirectory>src/main/scala</sourceDirectory>
+    <testSourceDirectory>src/test/scala</testSourceDirectory>
+    <plugins>
+      <plugin>
+        <groupId>net.alchim31.maven</groupId>
+        <artifactId>scala-maven-plugin</artifactId>
+        <configuration>
+          <scalaVersion>${scala-version}</scalaVersion>
+          <recompileMode>all</recompileMode>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
+

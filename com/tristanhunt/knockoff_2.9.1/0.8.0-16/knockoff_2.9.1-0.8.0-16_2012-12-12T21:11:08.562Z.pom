@@ -1,0 +1,39 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tristanhunt</groupId>
+  <artifactId>knockoff_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <version>0.8.0-16</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>scalatools</id>
+      <name>scalatools</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+    </repository>
+    <repository>
+      <id>tristanhuntSnapshots</id>
+      <name>tristanhunt Snapshots</name>
+      <url>http://tristanhunt.com:8081/content/groups/public-snapshots/</url>
+    </repository>
+    <repository>
+      <id>tristanhunt</id>
+      <name>tristanhunt</name>
+      <url>http://tristanhunt.com:8081/content/groups/releases_group/</url>
+    </repository>
+    <repository>
+      <id>ScalaToolsMaven2Repository</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+    </repository>
+  </repositories>
+</project>
+

@@ -1,0 +1,60 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.lessis</groupId>
+  <artifactId>gist-script_2.9.2</artifactId>
+  <packaging>jar</packaging>
+  <description>conscript interface for gist</description>
+  <url>https://github.com/softprops/gist/</url>
+  <version>0.1.0</version>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/softprops/gist/blob/0.1.0/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>gist-script</name>
+  <organization>
+    <name>me.lessis</name>
+    <url>https://github.com/softprops/gist/</url>
+  </organization>
+  <scm>
+    <url>git@github.com:softprops/gist.git</url>
+    <connection>scm:git:git@github.com:softprops/gist.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>softprops</id>
+      <name>Doug Tangren</name>
+      <url>http://github.com/softprops</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>me.lessis</groupId>
+      <artifactId>gist_2.9.2</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-sbt</groupId>
+      <artifactId>launcher-interface</artifactId>
+      <version>0.12.0-RC4</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-jdk14</artifactId>
+      <version>1.6.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
+

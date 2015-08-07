@@ -1,0 +1,54 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mojolly.http</groupId>
+  <artifactId>http-parsers_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <description>http-parsers</description>
+  <version>0.3.0</version>
+  <name>http-parsers</name>
+  <organization>
+    <name>com.mojolly.http</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2_2.9.1</artifactId>
+      <version>1.6.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.parboiled</groupId>
+      <artifactId>parboiled-scala</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>ScalaToolsSnapshots</id>
+      <name>ScalaTools Snapshots</name>
+      <url>http://scala-tools.org/repo-snapshots/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>ScalaToolsMaven2Repository</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

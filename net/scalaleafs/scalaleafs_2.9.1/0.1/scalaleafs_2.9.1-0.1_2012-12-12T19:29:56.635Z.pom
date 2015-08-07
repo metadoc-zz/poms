@@ -1,0 +1,72 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.scalaleafs</groupId>
+  <artifactId>scalaleafs_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <description>scalaleafs</description>
+  <url>http://scalaleafs.net</url>
+  <version>0.1</version>
+  <licenses>
+    <license>
+      <name>The Apache Software Licence, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>scalaleafs</name>
+  <organization>
+    <name>net.scalaleafs</name>
+    <url>http://scalaleafs.net</url>
+  </organization>
+  <scm>
+    <connection>scm:git:git@github.com:scalastuff/scalaleafs.git</connection>
+    <url>https://github.com/scalastuff/scalaleafs</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>ruudditerwich</id>
+      <name>Ruud Diterwich</name>
+      <url>http://ruud.diterwich.com</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.6.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>nu.validator.htmlparser</groupId>
+      <artifactId>htmlparser</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.clapper</groupId>
+      <artifactId>grizzled-slf4j_2.9.1</artifactId>
+      <version>0.6.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.8</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

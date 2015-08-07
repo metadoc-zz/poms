@@ -1,0 +1,85 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.scala-libs</groupId>
+  <artifactId>scalajpa_2.9.0-1</artifactId>
+  <packaging>jar</packaging>
+  <version>1.4</version>
+  <inceptionYear>2008</inceptionYear>
+  <name>Scala JPA Utility Framework</name>
+  <description>
+    This module provides some basic classes to simplify using JPA (Java Persistence) under Scala.
+  </description>
+  <url>http://scala-tools.org/mvnsites/scalajpa</url>
+  <organization>
+    <name>scala-tools.org</name>
+    <url>http://scala-tools.org/mvnsites/scalajpa/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Apache License, ASL Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dchenbecker</id>
+      <name>Derek Chen-Becker</name>
+      <timezone>-7</timezone>
+      <email>java [at] chen-becker.org</email>
+      <roles>
+        <role>BDFL</role>
+      </roles>
+    </developer>
+  </developers>
+  <ciManagement>
+    <system>hudson</system>
+    <url>http://hudson.scala-tools.org/job/scalajpa/</url>
+  </ciManagement>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>http://github.com/dchenbecker/scalajpa/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git://github.com/dchenbecker/scalajpa.git</connection>
+    <url>http://github.com/dchenbecker/scalajpa/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>javax.persistence</groupId>
+      <artifactId>persistence-api</artifactId>
+      <version>1.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>geronimo-spec</groupId>
+      <artifactId>geronimo-spec-jta</artifactId>
+      <version>1.0-M1</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>ScalaToolsNexusSnapshot</id>
+      <name>Scala Tools Nexus Snapshot</name>
+      <url>http://nexus.scala-tools.org/content/repositories/snapshots/</url>
+    </repository>
+    <repository>
+      <id>JbossPublicRepository</id>
+      <name>Jboss Public Repository</name>
+      <url>http://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+    </repository>
+    <repository>
+      <id>ScalaToolsNexus</id>
+      <name>Scala Tools Nexus</name>
+      <url>http://nexus.scala-tools.org/content/repositories/releases/</url>
+    </repository>
+    <repository>
+      <id>ScalaToolsMaven2Repository</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+    </repository>
+  </repositories>
+</project>
+

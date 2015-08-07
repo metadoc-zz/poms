@@ -1,0 +1,52 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jsuereth</groupId>
+  <artifactId>gpg-library_2.9.2</artifactId>
+  <packaging>jar</packaging>
+  <description>gpg-library</description>
+  <version>0.6</version>
+  <name>gpg-library</name>
+  <organization>
+    <name>com.jsuereth</name>
+  </organization>
+  <url>http://scala-sbt.org/xsbt-gpg-plugin/</url>
+  <licenses>
+    <license>
+      <name>BSD</name>
+      <url>ttp://www.opensource.org/licenses/bsd-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git://github.com/sbt/xsbt-gpg-plugin.git</url>
+    <connection>scm:git://github.com/sbt/xsbt-gpg-plugin.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>jsuereth</id>
+      <name>Josh Suereth</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcpg-jdk16</artifactId>
+      <version>1.46</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.databinder</groupId>
+      <artifactId>dispatch-http_2.9.1</artifactId>
+      <version>0.8.6</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
+

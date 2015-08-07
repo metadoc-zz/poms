@@ -1,0 +1,66 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.scala-incubator.io</groupId>
+  <artifactId>scala-io-docs_2.9.2</artifactId>
+  <packaging>jar</packaging>
+  <description>scala-io-docs</description>
+  <url>http://jesseeichar.github.com/scala-io-doc/index.html</url>
+  <version>0.4.0-seq</version>
+  <licenses>
+    <license>
+      <name>Scala License</name>
+      <url>http://www.scala-lang.org/node/146</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>scala-io-docs</name>
+  <organization>
+    <name>com.github.scala-incubator.io</name>
+    <url>http://jesseeichar.github.com/scala-io-doc/index.html</url>
+  </organization>
+  <scm>
+    <url>git@github.com:jesseeichar/scala-io.git</url>
+    <connection>scm:git:git@github.com:jesseeichar/scala-io.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>jesseeichar</id>
+      <name>Jesse Eichar</name>
+      <url>http://jsuereth.com</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.scala-incubator.io</groupId>
+      <artifactId>scala-io-core_2.9.2</artifactId>
+      <version>0.4.0-seq</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.scala-incubator.io</groupId>
+      <artifactId>scala-io-file_2.9.2</artifactId>
+      <version>0.4.0-seq</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.scala-incubator.io</groupId>
+      <artifactId>scala-io-file_2.9.2</artifactId>
+      <version>0.4.0-seq</version>
+      <scope>docs</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.novocode</groupId>
+      <artifactId>junit-interface</artifactId>
+      <version>0.8</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

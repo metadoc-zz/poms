@@ -1,0 +1,53 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.treode</groupId>
+  <artifactId>cps_2.9.2</artifactId>
+  <packaging>jar</packaging>
+  <description>cps</description>
+  <version>0.1</version>
+  <name>cps</name>
+  <organization>
+    <name>com.treode</name>
+  </organization>
+  <url>https://github.com/Treode/cps</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/Treode/cps</url>
+    <connection>scm:git:git@github.com:Treode/cps.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>topher</id>
+      <name>Topher</name>
+      <url>https://github.com/Topher-the-Geek</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.9.2</artifactId>
+      <version>2.0.M4</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalacheck</groupId>
+      <artifactId>scalacheck_2.9.2</artifactId>
+      <version>1.9</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

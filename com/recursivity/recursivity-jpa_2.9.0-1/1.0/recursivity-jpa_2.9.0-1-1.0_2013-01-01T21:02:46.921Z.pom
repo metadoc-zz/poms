@@ -1,0 +1,67 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.recursivity</groupId>
+  <artifactId>recursivity-jpa_2.9.0-1</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0</version>
+  <name>recursivity-jpa</name>
+  <description>Recursivity JPA Project POM</description>
+  <url>http://github.com/wfaler/recursivity-jpa</url>
+  <inceptionYear>2010</inceptionYear>
+  <organization>
+    <name>Recursivity Commons Project</name>
+    <url>http://github.com/wfaler/recursivity-jpa</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>BSD</name>
+      <url>http://github.com/wfaler/recursivity-jpa/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:git://github.com/wfaler/recursivity-jpa.git</connection>
+    <url>http://github.com/wfaler/recursivity-jpa</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>wfaler</id>
+      <name>Wille Faler</name>
+      <url>http://blog.recursivity.com</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-nop</artifactId>
+      <version>1.6.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.6.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-entitymanager</artifactId>
+      <version>3.6.1.Final</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>JBossrepo</id>
+      <name>JBoss repo</name>
+      <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
+    </repository>
+    <repository>
+      <id>ScalaToolsMaven2Repository</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+    </repository>
+  </repositories>
+</project>
+

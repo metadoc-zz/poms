@@ -1,0 +1,74 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.backchat.jerkson</groupId>
+  <artifactId>jerkson_2.9.2</artifactId>
+  <packaging>jar</packaging>
+  <description>jerkson</description>
+  <url>https://github.com/backchatio/jerkson</url>
+  <version>0.7.0</version>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://codahale.com/mit.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>jerkson</name>
+  <inceptionYear>2010</inceptionYear>
+  <organization>
+    <name>io.backchat.jerkson</name>
+    <url>https://github.com/backchatio/jerkson</url>
+  </organization>
+  <scm>
+    <connection>scm:git:git://github.com/backchatio/jerkson.git</connection>
+    <developerConnection>
+      scm:git:git@github.com:backchatio/jerkson.git
+    </developerConnection>
+    <url>https://github.com/backchatio/jerkson</url>
+  </scm>
+  <developers>
+    <developer>
+      <name>Coda Hale</name>
+      <email>coda.hale@gmail.com</email>
+      <timezone>-8</timezone>
+    </developer>
+    <developer>
+      <id>casualjim</id>
+      <name>Ivan Porto Carrero</name>
+      <url>http://flanders.co.nz/</url>
+    </developer>
+    <developer>
+      <id>sdb</id>
+      <name>Stefan De Boey</name>
+      <url>http://ellefant.be/</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.0.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.0.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.codahale</groupId>
+      <artifactId>simplespec_2.9.1</artifactId>
+      <version>0.5.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

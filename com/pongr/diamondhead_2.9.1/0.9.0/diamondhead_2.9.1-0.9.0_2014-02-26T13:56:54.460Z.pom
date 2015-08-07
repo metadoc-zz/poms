@@ -1,0 +1,60 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pongr</groupId>
+  <artifactId>diamondhead_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <description>Scala signed requests</description>
+  <url>http://github.com/pongr/diamondhead</url>
+  <version>0.9.0</version>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>http://opensource.org/licenses/Apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>diamondhead</name>
+  <organization>
+    <name>Pongr</name>
+    <url>http://pongr.com</url>
+  </organization>
+  <scm>
+    <url>git@github.com:pongr/diamondhead.git</url>
+    <connection>scm:git:git@github.com:pongr/diamondhead.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>zcox</id>
+      <name>Zach Cox</name>
+      <url>http://theza.ch</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.spray</groupId>
+      <artifactId>spray-json_2.9.2</artifactId>
+      <version>1.2.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>1.8</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2_2.9.1</artifactId>
+      <version>1.12.4</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

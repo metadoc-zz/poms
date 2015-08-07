@@ -1,0 +1,50 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.timgroup</groupId>
+  <artifactId>matchless_2.9.2</artifactId>
+  <packaging>jar</packaging>
+  <description>matchless</description>
+  <version>1.0.5</version>
+  <name>matchless</name>
+  <organization>
+    <name>com.timgroup</name>
+  </organization>
+  <url>https://github.com/youdevise/matchless</url>
+  <licenses>
+    <license>
+      <name>MIT license</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:youdevise/matchless.git</url>
+    <connection>scm:git:git@github.com:youdevise/matchless.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>poetix</id>
+      <name>Dominic Fox</name>
+      <email>dominic.fox@timgroup.com</email>
+    </developer>
+    <developer>
+      <id>ms-tg</id>
+      <name>Marc Siegel</name>
+      <email>marc.siegel@timgroup.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2_2.9.2</artifactId>
+      <version>1.12.3</version>
+    </dependency>
+  </dependencies>
+</project>
+

@@ -1,0 +1,45 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.foursquare</groupId>
+  <artifactId>rogue_2.9.0-1</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0.16</version>
+  <dependencies>
+    <dependency>
+      <groupId>net.liftweb</groupId>
+      <artifactId>lift-mongodb-record_2.9.0-1</artifactId>
+      <version>2.4-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.0-1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>JavanetMaven2Repository</id>
+      <name>Java.net Maven2 Repository</name>
+      <url>http://download.java.net/maven/2/</url>
+    </repository>
+    <repository>
+      <id>BryanJSwiftRepository</id>
+      <name>Bryan J Swift Repository</name>
+      <url>http://repos.bryanjswift.com/maven2/</url>
+    </repository>
+    <repository>
+      <id>ScalaToolsSnapshots</id>
+      <name>Scala Tools Snapshots</name>
+      <url>http://scala-tools.org/repo-snapshots/</url>
+    </repository>
+    <repository>
+      <id>ScalaToolsMaven2Repository</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+    </repository>
+  </repositories>
+</project>
+

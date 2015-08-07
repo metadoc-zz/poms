@@ -1,0 +1,54 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yuvimasory</groupId>
+  <artifactId>flashup_2.9.0</artifactId>
+  <packaging>jar</packaging>
+  <description>flashup</description>
+  <version>0.2.0</version>
+  <name>flashup</name>
+  <organization>
+    <name>com.yuvimasory</name>
+  </organization>
+  <url>http://ymasory.github.com/Flashup/</url>
+  <licenses>
+    <license>
+      <name>AGPLv3</name>
+      <url>http://www.gnu.org/licenses/agpl-3.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/ymasory/Flashup.git</url>
+    <connection>scm:git:https://github.com/ymasory/Flashup.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>ymasory</id>
+      <name>Yuvi Masory</name>
+      <email>ymasory@gmail.com</email>
+      <url>http://yuvimasory.com</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.martiansoftware</groupId>
+      <artifactId>jsap</artifactId>
+      <version>2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.9.0</artifactId>
+      <version>1.8</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

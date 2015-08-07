@@ -1,0 +1,31 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.liftweb</groupId>
+  <artifactId>lift-modules_2.9.0</artifactId>
+  <packaging>pom</packaging>
+  <version>2.4-M1</version>
+  <name>Lift Modules</name>
+  <url>http://www.liftweb.net</url>
+  <inceptionYear>2006</inceptionYear>
+  <organization>
+    <name>WorldWide Conferencing, LLC</name>
+    <url>http://www.liftweb.net</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>Lift Modules is licensed under Apache License, Version 2.0</comments>
+    </license>
+  </licenses>
+  <repositories>
+    <repository>
+      <id>ScalaToolsMaven2Repository</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+    </repository>
+  </repositories>
+</project>
+

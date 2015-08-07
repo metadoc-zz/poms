@@ -1,0 +1,44 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.widebase</groupId>
+  <artifactId>widebase-util_2.9.2</artifactId>
+  <packaging>jar</packaging>
+  <description>widebase-util</description>
+  <version>0.3.2</version>
+  <name>widebase-util</name>
+  <organization>
+    <name>com.github.widebase</name>
+  </organization>
+  <url>https://github.com/widebase/widebase</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://raw.github.com/widebase/widebase/master/LICENSE</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/widebase/widebase</url>
+    <connection>scm:git:git@github.com:widebase/widebase.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>myst3r10n</id>
+      <name>myst3r10n</name>
+      <url>https://github.com/myst3r10n</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.widebase</groupId>
+      <artifactId>widebase-io-filter_2.9.2</artifactId>
+      <version>0.3.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.2</version>
+    </dependency>
+  </dependencies>
+</project>
+

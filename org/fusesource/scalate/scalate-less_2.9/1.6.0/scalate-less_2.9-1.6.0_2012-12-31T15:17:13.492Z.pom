@@ -1,0 +1,55 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.fusesource.scalate</groupId>
+    <artifactId>scalate-project_2.9</artifactId>
+    <version>1.6.0</version>
+  </parent>
+  <artifactId>scalate-less_2.9</artifactId>
+  <packaging>bundle</packaging>
+  <name>${project.artifactId}</name>
+  <description>A Scalate filter that uses Less</description>
+  <properties> </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.fusesource.scalate</groupId>
+      <artifactId>scalate-core_2.9</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.asual.lesscss</groupId>
+      <artifactId>lesscss-engine</artifactId>
+      <version>1.0.41</version>
+    </dependency>
+    <dependency>
+      <groupId>org.fusesource.scalate</groupId>
+      <artifactId>scalate-test_2.9</artifactId>
+      <version>${project.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>${scalatest-artifact}</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>com.asual.lesscss</id>
+      <name>Asual Public Repository</name>
+      <url>http://www.asual.com/maven/content/groups/public</url>
+    </repository>
+  </repositories>
+</project>
+

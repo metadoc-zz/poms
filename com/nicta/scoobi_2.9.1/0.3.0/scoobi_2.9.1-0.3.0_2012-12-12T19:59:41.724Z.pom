@@ -1,0 +1,71 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nicta</groupId>
+  <artifactId>scoobi_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <description>scoobi</description>
+  <version>0.3.0</version>
+  <name>scoobi</name>
+  <organization>
+    <name>com.nicta</name>
+  </organization>
+  <url>https://github.com/NICTA/scoobi</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.opensource.org/licenses/bsd-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:NICTA/scoobi.git</url>
+    <connection>scm:git:git@github.com:NICTA/scoobi.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>blever</id>
+      <name>Ben Lever</name>
+      <url>https://twitter.com/#!/bmlever</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.odiago.avro</groupId>
+      <artifactId>odiago-avro</artifactId>
+      <version>1.0.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javassist</groupId>
+      <artifactId>javassist</artifactId>
+      <version>3.12.1.GA</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.hadoop</groupId>
+      <artifactId>hadoop-core</artifactId>
+      <version>0.20.2-cdh3u1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.avro</groupId>
+      <artifactId>avro-mapred</artifactId>
+      <version>1.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.thoughtworks.xstream</groupId>
+      <artifactId>xstream</artifactId>
+      <version>1.4.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
+

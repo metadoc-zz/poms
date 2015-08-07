@@ -1,0 +1,118 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.scalatra</groupId>
+  <artifactId>scalatra_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <description>The core Scalatra framework</description>
+  <url>http://www.scalatra.org/</url>
+  <version>2.1.0.M1</version>
+  <licenses>
+    <license>
+      <name>BSD</name>
+      <url>http://github.com/scalatra/scalatra/raw/HEAD/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>scalatra</name>
+  <inceptionYear>2009</inceptionYear>
+  <organization>
+    <name>org.scalatra</name>
+    <url>http://www.scalatra.org/</url>
+  </organization>
+  <scm>
+    <url>http://github.com/scalatra/scalatra</url>
+    <connection>scm:git:git://github.com/scalatra/scalatra.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>riffraff</id>
+      <name>Gabriele Renzi</name>
+      <url>http://www.riffraff.info</url>
+    </developer>
+    <developer>
+      <id>alandipert</id>
+      <name>Alan Dipert</name>
+      <url>http://alan.dipert.org</url>
+    </developer>
+    <developer>
+      <id>rossabaker</id>
+      <name>Ross A. Baker</name>
+      <url>http://www.rossabaker.com/</url>
+    </developer>
+    <developer>
+      <id>chirino</id>
+      <name>Hiram Chirino</name>
+      <url>http://hiramchirino.com/blog/</url>
+    </developer>
+    <developer>
+      <id>casualjim</id>
+      <name>Ivan Porto Carrero</name>
+      <url>http://flanders.co.nz/</url>
+    </developer>
+    <developer>
+      <id>jlarmstrong</id>
+      <name>Jared Armstrong</name>
+      <url>http://www.jaredarmstrong.name/</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scalatra</groupId>
+      <artifactId>scalatra-specs2_2.9.1</artifactId>
+      <version>2.1.0.M1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatra</groupId>
+      <artifactId>scalatra-specs_2.9.1</artifactId>
+      <version>2.1.0.M1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatra</groupId>
+      <artifactId>scalatra-scalatest_2.9.1</artifactId>
+      <version>2.1.0.M1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.0.1</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.clapper</groupId>
+      <artifactId>grizzled-slf4j_2.9.1</artifactId>
+      <version>0.6.6</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>ScalaToolsMaven2SnapshotsRepository</id>
+      <name>Scala-Tools Maven2 Snapshots Repository</name>
+      <url>http://scala-tools.org/repo-snapshots/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>SonatypeNexusSnapshots</id>
+      <name>Sonatype Nexus Snapshots</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>ScalaToolsMaven2Repository</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

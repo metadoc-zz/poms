@@ -1,0 +1,77 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ansvia.graph</groupId>
+  <artifactId>blueprints-scala_2.9.2</artifactId>
+  <packaging>jar</packaging>
+  <description>blueprints-scala</description>
+  <version>0.1.6</version>
+  <name>blueprints-scala</name>
+  <organization>
+    <name>com.ansvia.graph</name>
+  </organization>
+  <url>http://www.ansvia.com</url>
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:anvie/blueprints-scala.git</url>
+    <connection>scm:git:git@github.com:anvie/blueprints-scala.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>robin</id>
+      <name>Robin Syihab</name>
+      <url>http://mindtalk.com/u/robin</url>
+    </developer>
+    <developer>
+      <id>vikraman</id>
+      <name>Vikraman Choudhury</name>
+      <url>http://vh4x0r.wordpress.com</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.6</version>
+    </dependency>
+    <dependency>
+      <groupId>com.tinkerpop.blueprints</groupId>
+      <artifactId>blueprints-core</artifactId>
+      <version>2.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.tinkerpop.gremlin</groupId>
+      <artifactId>gremlin-groovy</artifactId>
+      <version>2.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.tinkerpop.gremlin</groupId>
+      <artifactId>gremlin-java</artifactId>
+      <version>2.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2_2.9.2</artifactId>
+      <version>1.12.3</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tinkerpop.blueprints</groupId>
+      <artifactId>blueprints-neo4j-graph</artifactId>
+      <version>2.3.0</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

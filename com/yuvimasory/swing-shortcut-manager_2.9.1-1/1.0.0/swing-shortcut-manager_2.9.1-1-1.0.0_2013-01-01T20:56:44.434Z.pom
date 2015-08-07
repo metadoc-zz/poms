@@ -1,0 +1,56 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yuvimasory</groupId>
+  <artifactId>swing-shortcut-manager_2.9.1-1</artifactId>
+  <packaging>jar</packaging>
+  <description>swing-shortcut-manager</description>
+  <version>1.0.0</version>
+  <name>swing-shortcut-manager</name>
+  <organization>
+    <name>com.yuvimasory</name>
+  </organization>
+  <url>https://github.com/memlab/swing-shortcut-manager</url>
+  <licenses>
+    <license>
+      <name>GPLv3</name>
+      <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/memlab/swing-shortcut-manager.git</url>
+    <connection>
+      scm:git:https://github.com/memlab/swing-shortcut-manager.git
+    </connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>ymasory</id>
+      <name>Yuvi Masory</name>
+      <email>ymasory@gmail.com</email>
+      <url>http://yuvimasory.com</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1-1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>jdom</groupId>
+      <artifactId>jdom</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>jaxen</groupId>
+      <artifactId>jaxen</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
+

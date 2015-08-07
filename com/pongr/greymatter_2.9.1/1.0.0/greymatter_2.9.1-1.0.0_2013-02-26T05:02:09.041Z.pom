@@ -1,0 +1,66 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pongr</groupId>
+  <artifactId>greymatter_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <description>Integration between Apache James and Akka</description>
+  <url>http://github.com/pongr/greymatter</url>
+  <version>1.0.0</version>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>http://opensource.org/licenses/Apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>greymatter</name>
+  <organization>
+    <name>Pongr</name>
+    <url>http://pongr.com</url>
+  </organization>
+  <scm>
+    <url>git@github.com:pongr/greymatter.git</url>
+    <connection>scm:git:git@github.com:pongr/greymatter.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>zcox</id>
+      <name>Zach Cox</name>
+      <url>http://theza.ch</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.james</groupId>
+      <artifactId>apache-mailet-base</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-actor</artifactId>
+      <version>2.0.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-slf4j</artifactId>
+      <version>2.0.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
+

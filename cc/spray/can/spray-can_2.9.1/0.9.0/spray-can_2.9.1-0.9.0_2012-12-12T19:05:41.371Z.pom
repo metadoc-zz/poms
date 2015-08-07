@@ -1,0 +1,60 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cc.spray.can</groupId>
+  <artifactId>spray-can_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <version>0.9.0</version>
+  <name>spray-can</name>
+  <url>http://spray.cc/</url>
+  <inceptionYear>2011</inceptionYear>
+  <description>
+    a low-overhead, high-performance, fully asynchronous HTTP 1.1 server and client library implemented entirely in Scala on top of Akka
+  </description>
+  <licenses>
+    <license>
+      <name>Apache 2</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sirthias</id>
+      <name>Mathias Doenitz</name>
+      <timezone>+1</timezone>
+      <email>mathias [at] spray.cc</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>http://github.com/spray/spray-can/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>se.scalablesolutions.akka</groupId>
+      <artifactId>akka-actor</artifactId>
+      <version>1.2</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>ScalaToolsMaven2Repository</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+    </repository>
+  </repositories>
+</project>
+

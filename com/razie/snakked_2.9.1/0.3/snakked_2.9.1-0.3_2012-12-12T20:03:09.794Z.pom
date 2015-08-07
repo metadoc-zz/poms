@@ -1,0 +1,54 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.razie</groupId>
+  <artifactId>snakked_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <description>snakked</description>
+  <version>0.3</version>
+  <name>snakked</name>
+  <organization>
+    <name>Razie's Pub</name>
+    <url>http://www.razie.com</url>
+  </organization>
+  <properties>
+    <extraDependencyAttributes>
+      +e:scalaVersion:#@#:+2.9.1:#@#:+revision:#@#:+0.3.2:#@#:+module:#@#:+posterous-sbt:#@#:+e:sbtVersion:#@#:+0.11.2:#@#:+organisation:#@#:+net.databinder:#@#:+branch:#@#:+@#:NULL:#@:#@#:
+    </extraDependencyAttributes>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>com.razie</groupId>
+      <artifactId>snakk-core_2.9.1</artifactId>
+      <version>0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.databinder</groupId>
+      <artifactId>posterous-sbt</artifactId>
+      <version>0.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>ScalaToolsMaven2SnapshotsRepository</id>
+      <name>Scala-Tools Maven2 Snapshots Repository</name>
+      <url>http://scala-tools.org/repo-snapshots/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>ScalaToolsMaven2Repository</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

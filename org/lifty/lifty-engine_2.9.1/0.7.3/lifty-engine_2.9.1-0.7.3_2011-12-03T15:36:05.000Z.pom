@@ -1,0 +1,66 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.lifty</groupId>
+  <artifactId>lifty-engine_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <description>lifty-engine</description>
+  <version>0.7.3</version>
+  <name>lifty-engine</name>
+  <organization>
+    <name>org.lifty</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest</artifactId>
+      <version>1.3</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.liftweb</groupId>
+      <artifactId>lift-json_2.9.1</artifactId>
+      <version>2.4-M5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalaz</groupId>
+      <artifactId>scalaz-core_2.9.1</artifactId>
+      <version>6.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>jline</groupId>
+      <artifactId>jline</artifactId>
+      <version>0.9.94</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.fusesource.scalate</groupId>
+      <artifactId>scalate-core</artifactId>
+      <version>1.5.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>ScalaToolsReleases</id>
+      <name>Scala Tools Releases</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>ScalaToolsMaven2Repository</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

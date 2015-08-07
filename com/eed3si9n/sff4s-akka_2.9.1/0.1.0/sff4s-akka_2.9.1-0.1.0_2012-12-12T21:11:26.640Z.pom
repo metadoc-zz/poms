@@ -1,0 +1,60 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.eed3si9n</groupId>
+  <artifactId>sff4s-akka_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <description>sff4s-akka</description>
+  <version>0.1.0</version>
+  <name>sff4s-akka</name>
+  <organization>
+    <name>com.eed3si9n</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>com.eed3si9n</groupId>
+      <artifactId>sff4s-api_2.9.1</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2_2.9.1</artifactId>
+      <version>1.5</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>se.scalablesolutions.akka</groupId>
+      <artifactId>akka-actor</artifactId>
+      <version>1.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>ScalaToolsMaven2SnapshotsRepository</id>
+      <name>Scala-Tools Maven2 Snapshots Repository</name>
+      <url>http://scala-tools.org/repo-snapshots/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>AkkaRepo</id>
+      <name>Akka Repo</name>
+      <url>http://akka.io/repository/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>ScalaToolsMaven2Repository</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

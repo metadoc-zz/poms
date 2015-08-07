@@ -1,0 +1,6 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.scala-tools.sindi</groupId>
+  <artifactId>sindi_2.9.1.RC2</artifactId>
+  <version>0.2</version>
+</project>

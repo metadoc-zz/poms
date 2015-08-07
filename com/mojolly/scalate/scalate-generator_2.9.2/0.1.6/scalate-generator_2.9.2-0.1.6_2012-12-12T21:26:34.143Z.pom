@@ -1,0 +1,57 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mojolly.scalate</groupId>
+  <artifactId>scalate-generator_2.9.2</artifactId>
+  <packaging>jar</packaging>
+  <description>scalate-generator</description>
+  <url>https://backchat.io</url>
+  <version>0.1.6</version>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/mojolly/xsbt-scalate-generate/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>scalate-generator</name>
+  <inceptionYear>2012</inceptionYear>
+  <organization>
+    <name>com.mojolly.scalate</name>
+    <url>https://backchat.io</url>
+  </organization>
+  <scm>
+    <connection>scm:git:git://github.com/mojolly/xsbt-scalate-generate</connection>
+    <developerConnection>
+      scm:git:git@github.com:mojolly/xsbt-scalate-generate.git
+    </developerConnection>
+    <url>https://github.com/mojolly/xsbt-scalate-generate</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>casualjim</id>
+      <name>Ivan Porto Carrero</name>
+      <url>http://github.com/casualjim</url>
+    </developer>
+    <developer>
+      <id>sdb</id>
+      <name>Stefan De Boey</name>
+      <url>https://github.com/sdb</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.fusesource.scalate</groupId>
+      <artifactId>scalate-core</artifactId>
+      <version>1.5.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
+

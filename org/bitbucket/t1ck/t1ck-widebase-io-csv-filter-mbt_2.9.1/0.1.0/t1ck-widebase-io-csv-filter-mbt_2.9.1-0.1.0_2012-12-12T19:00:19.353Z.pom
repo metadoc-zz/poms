@@ -1,0 +1,52 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.bitbucket.t1ck</groupId>
+  <artifactId>t1ck-widebase-io-csv-filter-mbt_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <description>t1ck-widebase-io-csv-filter-mbt</description>
+  <version>0.1.0</version>
+  <name>t1ck-widebase-io-csv-filter-mbt</name>
+  <organization>
+    <name>org.bitbucket.t1ck</name>
+  </organization>
+  <url>https://bitbucket.org/t1ck/t1ck-widebase</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://raw.bitbucket.org/t1ck/t1ck-widebase/master/LICENSE</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://bitbucket.org/t1ck/t1ck-widebase</url>
+    <connection>scm:git:git@bitbucket.org:t1ck/t1ck-widebase.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>myst3r10n</id>
+      <name>myst3r10n</name>
+      <url>https://bitbucket.org/myst3r10n</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.widebase</groupId>
+      <artifactId>widebase-io-csv-filter_2.9.1</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.widebase</groupId>
+      <artifactId>widebase-dsl_2.9.1</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
+

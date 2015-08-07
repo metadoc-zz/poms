@@ -1,0 +1,6 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.scala-incubator.io</groupId>
+  <artifactId>file_2.9.0</artifactId>
+  <version>0.1.2</version>
+</project>

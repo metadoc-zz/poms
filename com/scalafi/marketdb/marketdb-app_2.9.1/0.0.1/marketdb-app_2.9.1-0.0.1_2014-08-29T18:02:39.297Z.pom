@@ -1,0 +1,124 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.scalafi.marketdb</groupId>
+  <artifactId>marketdb-app_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <description>marketdb-app</description>
+  <version>0.0.1</version>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>marketdb-app</name>
+  <organization>
+    <name>com.scalafi.marketdb</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.scalafi.marketdb</groupId>
+      <artifactId>marketdb-core_2.9.1</artifactId>
+      <version>0.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.scalafi.marketdb</groupId>
+      <artifactId>marketdb-iteratee_2.9.1</artifactId>
+      <version>0.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.5</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>1.9.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.powermock</groupId>
+      <artifactId>powermock-api-mockito</artifactId>
+      <version>1.4.11</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.powermock</groupId>
+      <artifactId>powermock-module-junit4</artifactId>
+      <version>1.4.11</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.9.1</artifactId>
+      <version>1.8</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.novocode</groupId>
+      <artifactId>junit-interface</artifactId>
+      <version>0.8</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>SonatypeRepository</id>
+      <name>Sonatype Repository</name>
+      <url>http://oss.sonatype.org/content/groups/public/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>ScalaToolsRepository</id>
+      <name>Scala Tools Repository</name>
+      <url>https://oss.sonatype.org/content/groups/scala-tools/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>JBossrepository</id>
+      <name>JBoss repository</name>
+      <url>http://repository.jboss.org/nexus/content/repositories/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>TypesafeRepository</id>
+      <name>Typesafe Repository</name>
+      <url>http://repo.typesafe.com/typesafe/releases/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>TypesafeRepositoryide29</id>
+      <name>Typesafe Repository ide-2.9</name>
+      <url>http://repo.typesafe.com/typesafe/simple/ide-2.9/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>TwitterRepository</id>
+      <name>Twitter Repository</name>
+      <url>http://maven.twttr.com/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>AkkaRepository</id>
+      <name>Akka Repository</name>
+      <url>http://akka.io/snapshots/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>BintrayResolveezhulenevreleases</id>
+      <name>Bintray-Resolve-ezhulenev-releases</name>
+      <url>http://dl.bintray.com/content/ezhulenev/releases/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

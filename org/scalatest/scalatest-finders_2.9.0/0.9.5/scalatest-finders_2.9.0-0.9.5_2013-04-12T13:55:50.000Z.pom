@@ -1,0 +1,49 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.scalatest</groupId>
+  <artifactId>scalatest-finders_2.9.0</artifactId>
+  <packaging>jar</packaging>
+  <description>scalatest-finders</description>
+  <version>0.9.5</version>
+  <name>scalatest-finders</name>
+  <organization>
+    <name>org.scalatest</name>
+  </organization>
+  <url>http://www.scalatest.org</url>
+  <licenses>
+    <license>
+      <name>the Apache License, ASL Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>http://code.google.com/p/scalatest/source/browse/</url>
+    <connection>scm:svn:http://scalatest.googlecode.com/svn/trunk/</connection>
+    <developerConnection>
+      scm:svn:http://scalatest.googlecode.com/svn/trunk/
+    </developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>bill</id>
+      <name>Bill Venners</name>
+      <email>bill@artima.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.9.0</artifactId>
+      <version>2.0.M6-SNAP4</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

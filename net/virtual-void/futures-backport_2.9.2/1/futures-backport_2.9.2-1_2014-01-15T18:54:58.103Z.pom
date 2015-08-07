@@ -1,0 +1,40 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.virtual-void</groupId>
+  <artifactId>futures-backport_2.9.2</artifactId>
+  <packaging>jar</packaging>
+  <description>futures-backport</description>
+  <url>http://github.com/jrudolph/futures-backport</url>
+  <version>1</version>
+  <licenses>
+    <license>
+      <name>BSD 3-Clause License</name>
+      <url>http://www.opensource.org/licenses/BSD-3-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <name>futures-backport</name>
+  <organization>
+    <name>net.virtual-void</name>
+    <url>http://github.com/jrudolph/futures-backport</url>
+  </organization>
+  <scm>
+    <url>git@github.com:jrudolph/futures-backport.git</url>
+    <connection>scm:git:git@github.com:jrudolph/futures-backport.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>jrudolph</id>
+      <name>Johannes Rudolph</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.2</version>
+    </dependency>
+  </dependencies>
+</project>
+

@@ -1,0 +1,61 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.wandledi</groupId>
+  <artifactId>wandledi-scala_2.9.0</artifactId>
+  <packaging>jar</packaging>
+  <description>Scala API for Wandledi</description>
+  <version>0.9.0</version>
+  <name>wandledi-scala</name>
+  <organization>
+    <name>org.wandledi</name>
+  </organization>
+  <url>http://wandledi.org</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.github.com/machisuji/Wandledi/HEAD/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/machisuji/Wandledi</url>
+    <connection>scm:git:git://github.com/machisuji/Wandledi.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>machisuji</id>
+      <name>Markus Kahl</name>
+      <url>https://github.com/machisuji</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.wandledi</groupId>
+      <artifactId>wandledi</artifactId>
+      <version>0.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest</artifactId>
+      <version>1.4.+</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>ScalaToolsMaven2Repository</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

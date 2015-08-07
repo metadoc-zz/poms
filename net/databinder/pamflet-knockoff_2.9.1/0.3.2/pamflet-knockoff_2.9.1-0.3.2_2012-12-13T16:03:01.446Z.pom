@@ -1,0 +1,38 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.databinder</groupId>
+  <artifactId>pamflet-knockoff_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <description>Extensions to the Knockoff Markdown parser</description>
+  <url>http://pamflet.databinder.net/</url>
+  <version>0.3.2</version>
+  <name>pamflet-knockoff</name>
+  <organization>
+    <name>net.databinder</name>
+    <url>http://pamflet.databinder.net/</url>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tristanhunt</groupId>
+      <artifactId>knockoff_2.9.1</artifactId>
+      <version>0.8.0-16</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>ScalaToolsMaven2Repository</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

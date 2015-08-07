@@ -1,0 +1,90 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.novus</groupId>
+  <artifactId>salat-util_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <description>salat-util</description>
+  <version>0.0.8-20120223</version>
+  <name>salat-util</name>
+  <organization>
+    <name>com.novus</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.6.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2_2.9.1</artifactId>
+      <version>1.6.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-core</artifactId>
+      <version>1.0.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.0.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scalap</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>ScalaToolsReleaseRepository</id>
+      <name>Scala Tools Release Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>ScalaToolsSnapshotRepository</id>
+      <name>Scala Tools Snapshot Repository</name>
+      <url>http://scala-tools.org/repo-snapshots/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>NovusReleaseRepository</id>
+      <name>Novus Release Repository</name>
+      <url>http://repo.novus.com/releases/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>NovusSnapshotsRepository</id>
+      <name>Novus Snapshots Repository</name>
+      <url>http://repo.novus.com/snapshots/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>TypesafeRepo</id>
+      <name>Typesafe Repo</name>
+      <url>http://repo.typesafe.com/typesafe/releases/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>ScalaToolsMaven2Repository</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

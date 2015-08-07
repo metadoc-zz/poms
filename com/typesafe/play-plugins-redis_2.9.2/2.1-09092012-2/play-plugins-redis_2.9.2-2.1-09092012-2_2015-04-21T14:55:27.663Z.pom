@@ -1,0 +1,48 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.typesafe</groupId>
+  <artifactId>play-plugins-redis_2.9.2</artifactId>
+  <packaging>jar</packaging>
+  <description>play-plugins-redis</description>
+  <version>2.1-09092012-2</version>
+  <name>play-plugins-redis</name>
+  <organization>
+    <name>com.typesafe</name>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>biz.source_code</groupId>
+      <artifactId>base64coder</artifactId>
+      <version>2010-09-21</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe</groupId>
+      <artifactId>play-plugins-util_2.9.2</artifactId>
+      <version>2.1-09092012</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.sedis</groupId>
+      <artifactId>sedis_2.9.2</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>TypesafeRepository</id>
+      <name>Typesafe Repository</name>
+      <url>http://repo.typesafe.com/typesafe/releases/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
+

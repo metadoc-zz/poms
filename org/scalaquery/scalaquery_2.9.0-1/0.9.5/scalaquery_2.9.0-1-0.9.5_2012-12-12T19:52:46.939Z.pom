@@ -1,0 +1,46 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.scalaquery</groupId>
+  <artifactId>scalaquery_2.9.0-1</artifactId>
+  <packaging>jar</packaging>
+  <version>0.9.5</version>
+  <name>ScalaQuery</name>
+  <url>http://scalaquery.org/</url>
+  <inceptionYear>2008</inceptionYear>
+  <description>A type-safe database API for Scala</description>
+  <licenses>
+    <license>
+      <name>Two-clause BSD-style license</name>
+      <url>http://github.com/szeiger/scala-query/blob/master/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>szeiger</id>
+      <name>Stefan Zeiger</name>
+      <timezone>+1</timezone>
+      <email>szeiger [at] novocode.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>http://github.com/szeiger/scala-query/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.0-1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>ScalaToolsMaven2Repository</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+    </repository>
+  </repositories>
+</project>
+

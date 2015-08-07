@@ -1,0 +1,59 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.eintr.loglady</groupId>
+  <artifactId>loglady_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <description>Crazy simple logging.</description>
+  <version>1.0.0</version>
+  <name>loglady</name>
+  <organization>
+    <name>org.eintr.loglady</name>
+  </organization>
+  <url>http://github.com/dln/loglady</url>
+  <licenses>
+    <license>
+      <name>Apache </name>
+      <url>http://www.opensource.org/licenses/bsd-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:dln/loglady.git</url>
+    <connection>scm:git:git@github.com:dln/loglady.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>dln</id>
+      <name>Daniel Lundin</name>
+      <url>http://eintr.org/</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.0.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2_2.9.1</artifactId>
+      <version>1.5</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

@@ -1,0 +1,70 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.rosien</groupId>
+  <artifactId>sniff_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <description>sniff</description>
+  <version>0.3</version>
+  <name>sniff</name>
+  <organization>
+    <name>net.rosien</name>
+  </organization>
+  <url>https://github.com/arosien/sniff</url>
+  <licenses>
+    <license>
+      <name>Apache 2</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:arosien/sniff.git</url>
+    <connection>scm:git:git@github.com:arosien/sniff.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>arosien</id>
+      <name>Adam Rosien</name>
+      <url>http://rosien.net</url>
+    </developer>
+  </developers>
+  <properties>
+    <extraDependencyAttributes>
+      +e:scalaVersion:#@#:+2.9.1:#@#:+revision:#@#:+2.0.0:#@#:+module:#@#:+sbteclipse-plugin:#@#:+e:sbtVersion:#@#:+0.11.2:#@#:+organisation:#@#:+com.typesafe.sbteclipse:#@#:+branch:#@#:+@#:NULL:#@:#@#: +e:scalaVersion:#@#:+2.9.1:#@#:+revision:#@#:+0.5:#@#:+module:#@#:+xsbt-gpg-plugin:#@#:+e:sbtVersion:#@#:+0.11.2:#@#:+organisation:#@#:+com.jsuereth:#@#:+branch:#@#:+@#:NULL:#@:#@#:
+    </extraDependencyAttributes>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.sbteclipse</groupId>
+      <artifactId>sbteclipse-plugin</artifactId>
+      <version>2.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jsuereth</groupId>
+      <artifactId>xsbt-gpg-plugin</artifactId>
+      <version>0.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2_2.9.1</artifactId>
+      <version>1.8.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalaz</groupId>
+      <artifactId>scalaz-core_2.9.1</artifactId>
+      <version>6.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
+

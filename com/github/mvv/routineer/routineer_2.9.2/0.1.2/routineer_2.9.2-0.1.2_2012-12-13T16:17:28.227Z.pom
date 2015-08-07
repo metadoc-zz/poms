@@ -1,0 +1,41 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.mvv.routineer</groupId>
+  <artifactId>routineer_2.9.2</artifactId>
+  <packaging>jar</packaging>
+  <description>routineer</description>
+  <version>0.1.2</version>
+  <name>routineer</name>
+  <organization>
+    <name>com.github.mvv.routineer</name>
+  </organization>
+  <url>http://github.com/mvv/routineer</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:mvv/routineer.git</url>
+    <connection>scm:git:git@github.com:mvv/routineer.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>mvv</id>
+      <name>Mikhail Vorozhtsov</name>
+      <url>http://github.com/mvv</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
+

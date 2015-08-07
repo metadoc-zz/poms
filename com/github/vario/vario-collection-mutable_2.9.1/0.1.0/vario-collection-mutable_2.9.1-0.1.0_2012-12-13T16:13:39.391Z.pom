@@ -1,0 +1,46 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.vario</groupId>
+  <artifactId>vario-collection-mutable_2.9.1</artifactId>
+  <packaging>jar</packaging>
+  <description>vario-collection-mutable</description>
+  <version>0.1.0</version>
+  <name>vario-collection-mutable</name>
+  <organization>
+    <name>com.github.vario</name>
+  </organization>
+  <url>https://github.com/vario/vario</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://raw.github.com/vario/vario/master/LICENSE</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/vario/vario</url>
+    <connection>scm:git:git@github.com:vario/vario.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>myst3r10n</id>
+      <name>myst3r10n</name>
+      <url>https://github.com/myst3r10n</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.vario</groupId>
+      <artifactId>vario-file_2.9.1</artifactId>
+      <version>0.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
+

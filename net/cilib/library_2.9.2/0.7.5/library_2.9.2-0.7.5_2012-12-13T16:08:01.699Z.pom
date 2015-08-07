@@ -1,0 +1,102 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.cilib</groupId>
+  <artifactId>library_2.9.2</artifactId>
+  <packaging>jar</packaging>
+  <description>
+    A library of composable components enabling simpler Computational Intelligence
+  </description>
+  <version>0.7.5</version>
+  <name>library</name>
+  <organization>
+    <name>CIRG @ UP</name>
+    <url>http://cirg.cs.up.ac.za</url>
+  </organization>
+  <url>http://cilib.net</url>
+  <licenses>
+    <license>
+      <name>LGPL</name>
+      <url>http://www.gnu.org/licenses/lgpl.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:cilib/cilib.git</url>
+    <connection>scm:git:git@github.com:cilib/cilib.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>gpampara</id>
+      <name>Gary Pamparà</name>
+      <url>http://gpampara.github.com</url>
+    </developer>
+    <developer>
+      <id>filinep</id>
+      <name>Filipe Nepomuceno</name>
+      <url>http://github.com/filinep</url>
+    </developer>
+    <developer>
+      <id>benniel</id>
+      <name>Bennie Leonard</name>
+      <url>http://github.com/benniel</url>
+    </developer>
+    <developer>
+      <id>avanwyk</id>
+      <name>Andrich van Wyk</name>
+      <url>http://github.com/avanwyk</url>
+    </developer>
+    <developer>
+      <id>kgeorgieva</id>
+      <name>Kristina Georgieva</name>
+      <url>http://github.com/kgeorgieva</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>11.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.parboiled</groupId>
+      <artifactId>parboiled-core</artifactId>
+      <version>0.11.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.parboiled</groupId>
+      <artifactId>parboiled-java</artifactId>
+      <version>0.11.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.functionaljava</groupId>
+      <artifactId>functionaljava</artifactId>
+      <version>3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>1.8.4</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest-all</artifactId>
+      <version>1.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.novocode</groupId>
+      <artifactId>junit-interface</artifactId>
+      <version>0.10-M1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

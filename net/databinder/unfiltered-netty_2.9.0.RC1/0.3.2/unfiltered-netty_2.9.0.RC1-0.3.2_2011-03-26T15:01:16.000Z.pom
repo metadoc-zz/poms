@@ -1,0 +1,41 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.databinder</groupId>
+  <artifactId>unfiltered-netty_2.9.0.RC1</artifactId>
+  <packaging>jar</packaging>
+  <version>0.3.2</version>
+  <dependencies>
+    <dependency>
+      <groupId>net.databinder</groupId>
+      <artifactId>unfiltered-netty-server_2.9.0.RC1</artifactId>
+      <version>0.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.databinder</groupId>
+      <artifactId>unfiltered_2.9.0.RC1</artifactId>
+      <version>0.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.0.RC1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>jbossrepo</id>
+      <name>jboss repo</name>
+      <url>http://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+    </repository>
+    <repository>
+      <id>ScalaToolsMaven2Repository</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases/</url>
+    </repository>
+  </repositories>
+</project>
+

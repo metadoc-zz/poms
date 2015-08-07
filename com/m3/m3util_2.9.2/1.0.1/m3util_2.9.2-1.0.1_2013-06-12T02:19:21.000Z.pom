@@ -1,0 +1,57 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.m3</groupId>
+  <artifactId>m3util_2.9.2</artifactId>
+  <packaging>jar</packaging>
+  <description>m3util</description>
+  <version>1.0.1</version>
+  <name>m3util</name>
+  <organization>
+    <name>com.m3</name>
+  </organization>
+  <url>https://github.com/m3dev/m3util</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>git@github.com:m3dev/m3util.git</url>
+    <connection>scm:git:git@github.com:m3dev/m3util.git</connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>gakuzzzz</id>
+      <name>gakuzzzz</name>
+      <url>https://github.com/gakuzzzz</url>
+    </developer>
+    <developer>
+      <id>seratch</id>
+      <name>Kazuhiro Sera</name>
+      <url>https://github.com/seratch</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2_2.9.2</artifactId>
+      <version>1.12.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>1.9.0</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+

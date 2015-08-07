@@ -1,0 +1,58 @@
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yuvimasory</groupId>
+  <artifactId>labeled-tostring_2.9.0-1</artifactId>
+  <packaging>jar</packaging>
+  <description>
+    Scala traits that override toString to display parameter labels
+  </description>
+  <version>0.5.0</version>
+  <name>labeled-tostring</name>
+  <organization>
+    <name>com.yuvimasory</name>
+  </organization>
+  <url>https://github.com/ymasory/labeled-tostring</url>
+  <licenses>
+    <license>
+      <name>GPLv3</name>
+      <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/ymasory/labeled-tostring.git</url>
+    <connection>
+      scm:git:https://github.com/ymasory/labeled-tostring.git
+    </connection>
+  </scm>
+  <developers>
+    <developer>
+      <id>ymasory</id>
+      <name>Yuvi Masory</name>
+      <email>ymasory@gmail.com</email>
+      <url>http://yuvimasory.com</url>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.9.0-1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest</artifactId>
+      <version>1.4.RC2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+
